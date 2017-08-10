@@ -1,0 +1,2 @@
+module Frontoffice::HomeHelper
+end
