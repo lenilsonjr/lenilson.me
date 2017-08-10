@@ -45,3 +45,5 @@ bower.json
 
 config/database.yml
 config/secrets.yml
+config/deploy.rb
+config/deploy/production.rb
