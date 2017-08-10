@@ -11,4 +11,8 @@ class User < ApplicationRecord
     url = "https://gravatar.com/avatar/#{gravatar}.png?s=#{size}"
   end
 
+  def self.me
+    with_role(:admin).first
+  end
+
 end
