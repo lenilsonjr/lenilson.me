@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @project.name
+%p
+  %b Description:
+  = @project.description
+%p
+  %b Url:
+  = @project.url
+%p
+  %b Highlighted:
+  = @project.highlighted
+%p
+  %b Image:
+  = @project.image
+
+= link_to 'Edit', edit_project_path(@project)
+\|
+= link_to 'Back', projects_path
