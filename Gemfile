@@ -35,7 +35,63 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+############ MY GEMS ############
+# Flexible authentication solution for Rails
+gem 'devise'
+# Authorization gem
+gem 'rolify'
+# The authorization Gem for Ruby on Rails
+#gem 'cancancan'
+# Forms made easy for Rails!
+gem 'simple_form'
+# Wrappers for JavaScript alert(), confirm() and other flexible dialogs using Twitter's bootstrap framework for Rails 3.1+
+gem 'bootbox-rails', '~>0.4'
+#Create beautiful JavaScript charts with one line of Ruby
+gem 'chartkick'
+#Add pickadate.js to your Rails 3.1+ app
+gem 'pickadate-rails'
+gem 'momentjs-rails'
+#Filterrific is a Rails Engine plugin that makes it easy to filter, search, and sort your ActiveRecord lists.
+gem 'filterrific'
+#Client Side Validations made easy for Ruby on Rails
+gem 'client_side_validations'
+#SimpleForm plugin for ClientSideValidations
+gem 'client_side_validations-simple_form'
+#Track changes to your models' data. Good for auditing or versioning.
+gem 'paper_trail'
+#ActiveRecord plugin allowing you to hide and restore records without actually deleting them.
+#gem "paranoia", "~> 2.2"
+# A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs
+gem 'kaminari'
+#Haml-rails provides Haml generators for Rails 4. It also enables Haml as the templating engine for you, so you don't have to screw around in your own application.rb when your Gemfile already clearly indicated what templating engine you have installed.
+gem "haml-rails"
+#the font-awesome font bundled as an asset for the rails asset pipeline
+gem "font-awesome-rails"
+# Gritter
+gem 'gritter', '1.2.0'
+#Autocomplete/typeahead input with Bootstrap 3 and Rails 4. Works with SimpleForm
+#gem 'bootstrap3_autocomplete_input'
+#Integration of RubyMoney - Money with Rails
+#gem 'money-rails', '~>1'
+#The simplest way to group temporal data
+gem 'groupdate'
+#Dynamic nested forms using jQuery made easy;
+gem "cocoon"
+
+source 'https://rails-assets.org' do
+  # Animated css
+  gem 'rails-assets-animate-css'
+  # Bootstrap
+  gem 'rails-assets-bootstrap', '3.3.7'
+  #Igor Escobar jQuery Masks
+  gem 'rails-assets-jQuery-Mask-Plugin'
+end
+########### END OF MY GEMS ##########
+
+
 group :development, :test do
+  gem 'faker', github: 'stympy/faker'
+  gem 'cpf_faker'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
