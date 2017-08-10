@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
 
   namespace :backoffice do
-    get '/', to: 'backoffice/dashboard#index'
+    root to: 'dashboard#index', as: :backoffice_root
     resources :projects
-    devise_for :users
   end
+
+  #Mount devise on /backoffice path
+  devise_for :users, path: '/backoffice'
 
   root to: 'frontoffice/home#index'
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
