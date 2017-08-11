@@ -1,2 +1,32 @@
-%h1 Hello World!
-%p Ainda não tem muito para se ver por aqui...
+.row.vertical-center-row
+  .col-md-4.col-md-offset-1.col-md-push-1
+    / Page Header
+    .row
+      .col-lg-12
+        .row
+          .col-md-2
+            %img.pull-right{:alt => "Lenilson", :height => "140px", :src => User.me.photo, :style => "margin-top: 50px;"}/
+          .col-md-10
+            %h1{:style => "padding-top: 30px;"}
+              %a{:href => "mailto:#{User.me.email}"}= User.me.name
+              %br/
+            %p.description= User.me.bio
+            .social
+              - Social.all.each do |social|
+                %a{:href => social.link, :target => "_blank", :title => social.description}
+                  = fa_icon(social.icon)
+    / /.row
+  / Projects Row
+  - Project.all.each do |project|
+    .col-md-4.col-md-offset-1.col-md-push-1
+      .row
+        .col-lg-12
+          .row
+            .col-md-2
+              %img.pull-right{:alt => project.name, :height => "140px", :src => project.image, :style => "margin-top: 50px;"}/
+            .col-md-10
+              %h1{:style => "padding-top: 30px;"}
+                %a{:href => project.url, :target => "_blank"}= project.name
+                %br/
+              %p.description= project.description
+    / /.row

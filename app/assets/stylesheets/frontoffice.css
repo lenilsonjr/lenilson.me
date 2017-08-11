@@ -1,0 +1,37 @@
+html, body, .container-table {
+  height: 100%;
+}
+.container-table {
+  display: table;
+}
+.vertical-center-row {
+  display: table-cell;
+  vertical-align: middle;
+}
+.portfolio-item {
+  margin-bottom: 25px;
+}
+body {
+  background-color: #1abc9c;
+  color: #ecf0f1;
+  line-height: 1;
+}
+a, a:focus {
+  color: #fff;
+}
+a:hover {
+  color: #ecf0f1;
+}
+.description {
+  color: #ecf0f1;
+  font-size: 14px;
+}
+.social {
+  font-size: 35px;
+}
+
+.social a:hover {
+  font-size: 38px;
+  text-decoration: none;
+  color: #000000;
+}

@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   namespace :backoffice do
     root to: 'dashboard#index', as: :backoffice_root
     resources :projects
+    resources :socials
   end
 
   #Mount devise on /backoffice path

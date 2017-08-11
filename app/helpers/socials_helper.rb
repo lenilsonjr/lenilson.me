@@ -1,0 +1,2 @@
+module SocialsHelper
+end

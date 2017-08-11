@@ -1,0 +1,11 @@
+= simple_form_for(@social) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :name
+    = f.input :link
+    = f.input :description
+    = f.input :icon
+
+  .form-actions
+    = f.button :submit
