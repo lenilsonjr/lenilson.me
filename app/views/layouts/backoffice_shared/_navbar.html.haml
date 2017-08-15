@@ -6,7 +6,7 @@
         %span.icon-bar
         %span.icon-bar
         %span.icon-bar
-      %a.navbar-brand{:href => "#"} lenilson.codes
+      %a.navbar-brand{:href => backoffice_root_path}= Setting.find_by_key(:title).value
     #navbar.navbar-collapse.collapse
       %ul.nav.navbar-nav.navbar-right
         %li

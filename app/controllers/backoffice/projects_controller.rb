@@ -1,4 +1,4 @@
-class ProjectsController < BackofficeController
+class Backoffice::ProjectsController < BackofficeController
   before_action :set_project, only: [:show, :edit, :update, :destroy]
 
   # GET /projects

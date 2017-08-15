@@ -2,7 +2,7 @@
 %html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title dotcodes - backoffice
+    %title= "#{Setting.find_by_key(:title).value} - #{Setting.find_by_key(:description).value}"
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = stylesheet_link_tag    'devise', media: 'all', 'data-turbolinks-track': 'reload'

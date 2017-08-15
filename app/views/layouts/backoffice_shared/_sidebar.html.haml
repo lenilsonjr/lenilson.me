@@ -3,11 +3,13 @@
     %a{:href => "#"}
       Dashboard
   %li
-    %a{:href => "#"} Settings
+    %a{:href => "#"} Site Settings
+  %li
+    %a{:href => backoffice_socials_path} Social Settings
 %ul.nav.nav-sidebar
   %li
-    %a{:href => ""} Projects
+    %a{:href => backoffice_projects_path} Projects
   %li
     %a{:href => ""} Users
   %li
-    %a{:href => ""} Logout
+    = link_to('Logout', destroy_user_session_path, method: :delete)

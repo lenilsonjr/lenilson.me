@@ -1,4 +1,4 @@
-class SocialsController < BackofficeController
+class Backoffice::SocialsController < BackofficeController
   before_action :set_social, only: [:show, :edit, :update, :destroy]
 
   # GET /socials

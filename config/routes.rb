@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   namespace :backoffice do
-    root to: 'dashboard#index', as: :backoffice_root
+    root to: 'dashboard#index', as: :root
     resources :projects
     resources :socials
   end

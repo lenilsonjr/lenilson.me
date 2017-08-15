@@ -35,6 +35,12 @@ namespace :dev do
 
     puts " "
 
+    puts "Gerating settings"
+    %x(rake dev:g_settings)
+    puts "Settings ok. Moving on..."
+
+    puts " "
+
     puts "Enviroment ok! Restart Rails!"
 
     puts " "
@@ -91,6 +97,14 @@ namespace :dev do
                     url: Faker::Internet.domain_name,
                     image: Faker::Avatar.image)
     end
+
+  end
+
+  desc "Generate settings"
+  task g_settings: :environment do
+
+    Setting.create(key: 'title', value: 'lenilson.codes')
+    Setting.create(key: 'description', value: 'web development, life, the universe, and everything else')
 
   end
 
