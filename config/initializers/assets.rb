@@ -19,6 +19,7 @@ Rails.application.config.assets.precompile += %w(
 Rails.application.config.assets.precompile += %w(
                                                   frontoffice.css
                                                   backoffice.css
+                                                  devise.css
                                                 )
 
 Rails.application.config.assets.precompile += %w(

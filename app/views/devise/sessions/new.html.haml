@@ -1,0 +1,5 @@
+= simple_form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: 'form-signin' }) do |f|
+  %h2.form-signin-heading Login
+  = f.input :email, required: true, autofocus: true, placeholder: 'E-mail', label: false
+  = f.input :password, required: true, placeholder: 'Password', label: false
+  = f.button :submit, "Log in", class: 'btn btn-lg btn-primary btn-block'
