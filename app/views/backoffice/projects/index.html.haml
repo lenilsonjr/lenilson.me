@@ -1,12 +1,12 @@
 %h1 Listing projects
 
-%table
+%table.table.table-striped
   %thead
     %tr
       %th Name
       %th Description
       %th Url
-      %th Highlighted
+      %th Highlighted?
       %th Image
       %th
       %th
@@ -17,13 +17,14 @@
       %tr
         %td= project.name
         %td= project.description
-        %td= project.url
+        %td= link_to project.url, project.url, target: :blank
         %td= project.highlighted
-        %td= project.image
-        %td= link_to 'Show', project
-        %td= link_to 'Edit', edit_project_path(project)
-        %td= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' }
+        %td
+          %img{:src => project.image, :width => '90px'}
+        %td= link_to 'Show', [:backoffice, project]
+        %td= link_to 'Edit', edit_backoffice_project_path(project)
+        %td= link_to 'Destroy', [:backoffice, project], method: :delete, data: { confirm: 'Are you sure?' }
 
 %br
 
-= link_to 'New Project', new_project_path
+= link_to 'New Project', new_backoffice_project_path, class: 'btn btn-primary'

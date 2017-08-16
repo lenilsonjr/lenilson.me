@@ -1,4 +1,4 @@
-= simple_form_for(@project) do |f|
+= simple_form_for([:backoffice, @project]) do |f|
   = f.error_notification
 
   .form-inputs
@@ -9,4 +9,4 @@
     = f.input :image
 
   .form-actions
-    = f.button :submit
+    = f.button :submit, class: 'btn btn-success'

@@ -8,14 +8,14 @@
   = @project.description
 %p
   %b Url:
-  = @project.url
+  = link_to @project.url, @project.url, target: :blank
 %p
   %b Highlighted:
   = @project.highlighted
 %p
   %b Image:
-  = @project.image
+  %img{:src => @project.image, :width => '90px'}
 
-= link_to 'Edit', edit_project_path(@project)
+= link_to 'Edit', edit_backoffice_project_path(@project)
 \|
-= link_to 'Back', projects_path
+= link_to 'Back', backoffice_projects_path
