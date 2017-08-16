@@ -1,6 +1,7 @@
-%h1 Editing project
+- content_for :header do
+  Editing project
 
-= render 'form'
+= render 'backoffice/projects/shared/form'
 
 = link_to 'Show', [:backoffice, @project]
 \|

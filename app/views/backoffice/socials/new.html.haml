@@ -1,5 +1,6 @@
-%h1 New social
+- content_for :header do
+  New social
 
-= render 'form'
+= render 'backoffice/socials/shared/form'
 
-= link_to 'Back', socials_path
+= link_to 'Back', backoffice_socials_path

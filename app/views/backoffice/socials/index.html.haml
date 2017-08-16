@@ -1,8 +1,10 @@
-%h1 Listing socials
+- content_for :header do
+  Listing socials
 
-%table
+%table.table.table-striped
   %thead
     %tr
+      %th #
       %th Name
       %th Link
       %th Description
@@ -14,14 +16,15 @@
   %tbody
     - @socials.each do |social|
       %tr
+        %td= social.id
         %td= social.name
         %td= social.link
         %td= social.description
-        %td= social.icon
-        %td= link_to 'Show', social
-        %td= link_to 'Edit', edit_social_path(social)
-        %td= link_to 'Destroy', social, method: :delete, data: { confirm: 'Are you sure?' }
+        %td= fa_icon(social.icon)
+        %td= link_to 'Show', [:backoffice, social]
+        %td= link_to 'Edit', edit_backoffice_social_path(social)
+        %td= link_to 'Destroy', [:backoffice, social], method: :delete, data: { confirm: 'Are you sure?' }
 
 %br
 
-= link_to 'New Social', new_social_path
+= link_to 'New Social', new_backoffice_social_path, class: 'btn btn-primary'

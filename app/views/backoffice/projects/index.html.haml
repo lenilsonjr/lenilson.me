@@ -1,8 +1,10 @@
-%h1 Listing projects
+- content_for :header do
+  Listing projects
 
 %table.table.table-striped
   %thead
     %tr
+      %th #
       %th Name
       %th Description
       %th Url
@@ -15,6 +17,7 @@
   %tbody
     - @projects.each do |project|
       %tr
+        %td= project.id
         %td= project.name
         %td= project.description
         %td= link_to project.url, project.url, target: :blank

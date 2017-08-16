@@ -1,7 +1,8 @@
-%h1 Editing social
+- content_for :header do
+  Editing social
 
-= render 'form'
+= render 'backoffice/socials/shared/form'
 
-= link_to 'Show', @social
+= link_to 'Show', [:backoffice, @social]
 \|
-= link_to 'Back', socials_path
+= link_to 'Back', backoffice_socials_path

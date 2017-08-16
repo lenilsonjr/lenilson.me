@@ -1,4 +1,5 @@
-%p#notice= notice
+- content_for :header do
+  Viewing Social
 
 %p
   %b Name:
@@ -13,6 +14,6 @@
   %b Icon:
   = @social.icon
 
-= link_to 'Edit', edit_social_path(@social)
+= link_to 'Edit', edit_backoffice_social_path(@social)
 \|
-= link_to 'Back', socials_path
+= link_to 'Back', backoffice_socials_path
