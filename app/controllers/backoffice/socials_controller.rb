@@ -29,10 +29,8 @@ class Backoffice::SocialsController < BackofficeController
     respond_to do |format|
       if @social.save
         format.html { redirect_to @social, notice: 'Social was successfully created.' }
-        format.json { render :show, status: :created, location: @social }
       else
         format.html { render :new }
-        format.json { render json: @social.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -43,10 +41,8 @@ class Backoffice::SocialsController < BackofficeController
     respond_to do |format|
       if @social.update(social_params)
         format.html { redirect_to @social, notice: 'Social was successfully updated.' }
-        format.json { render :show, status: :ok, location: @social }
       else
         format.html { render :edit }
-        format.json { render json: @social.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -57,7 +53,6 @@ class Backoffice::SocialsController < BackofficeController
     @social.destroy
     respond_to do |format|
       format.html { redirect_to socials_url, notice: 'Social was successfully destroyed.' }
-      format.json { head :no_content }
     end
   end
 
