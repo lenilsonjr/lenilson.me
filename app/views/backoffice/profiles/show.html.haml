@@ -1,0 +1,16 @@
+- content_for :header do
+  Viewing Profile
+
+%p
+  %b Name:
+  = @user.name
+
+%p
+  %b Bio:
+  = @user.bio
+
+%p
+  %b eMail:
+  = @user.email
+
+= link_to "Edit", edit_backoffice_profile_path, class: 'btn btn-primary'

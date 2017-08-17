@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     root to: 'dashboard#index', as: :root
     resources :projects
     resources :socials
+    resource :profile, only: [:show, :update, :edit]
   end
 
   #Mount devise on /backoffice path
