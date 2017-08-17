@@ -1,12 +1,12 @@
 .row.vertical-center-row
-  .col-md-4.col-md-offset-1.col-md-push-1
+  .col-md-12
     / Page Header
     .row
-      .col-lg-12
-        .row
-          .col-md-2
-            %img.pull-right{:alt => "Lenilson", :height => "140px", :src => User.me.photo, :style => "margin-top: 50px;"}/
-          .col-md-10
+      .col-lg-10.col-md-offset-1.col-md-push-2
+        .media
+          .media-left
+            %img{:alt => "Lenilson", :height => "140px", :src => User.me.photo, :style => "margin-top: 50px;"}/
+          .media-body
             %h1{:style => "padding-top: 30px;"}
               %a{:href => "mailto:#{User.me.email}"}= User.me.name
               %br/
