@@ -28,7 +28,7 @@ class Backoffice::SocialsController < BackofficeController
 
     respond_to do |format|
       if @social.save
-        format.html { redirect_to @social, notice: 'Social was successfully created.' }
+        format.html { redirect_to [:backoffice, @social], notice: 'Social was successfully created.' }
       else
         format.html { render :new }
       end
@@ -40,7 +40,7 @@ class Backoffice::SocialsController < BackofficeController
   def update
     respond_to do |format|
       if @social.update(social_params)
-        format.html { redirect_to @social, notice: 'Social was successfully updated.' }
+        format.html { redirect_to [:backoffice, @social], notice: 'Social was successfully updated.' }
       else
         format.html { render :edit }
       end
@@ -52,7 +52,7 @@ class Backoffice::SocialsController < BackofficeController
   def destroy
     @social.destroy
     respond_to do |format|
-      format.html { redirect_to socials_url, notice: 'Social was successfully destroyed.' }
+      format.html { redirect_to backoffice_socials_url, notice: 'Social was successfully destroyed.' }
     end
   end
 
