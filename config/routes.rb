@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     root to: 'dashboard#index', as: :root
     resources :projects
     resources :socials
+    resources :settings, except: [:show]
     resource :profile, only: [:show, :update, :edit]
   end
 
