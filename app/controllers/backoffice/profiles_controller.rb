@@ -18,7 +18,7 @@ class Backoffice::ProfilesController < BackofficeController
 
   private
     def profile_params
-      params.require(:user).permit(:name, :email, :bio)
+      params.require(:user).permit(:name, :email, :bio, :image)
     end
 
     def set_user

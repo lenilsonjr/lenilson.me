@@ -1,10 +1,4 @@
 - content_for :header do
   Editing Profile
 
-= simple_form_for [:backoffice, @user], url: backoffice_profile_path, method: :put do |f|
-
-  = f.input :name
-  = f.input :email
-  = f.input :bio
-
-  = f.submit class: 'btn btn-success'
+= render 'backoffice/profiles/shared/form'

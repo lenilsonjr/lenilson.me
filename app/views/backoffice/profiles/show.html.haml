@@ -13,4 +13,8 @@
   %b eMail:
   = @user.email
 
+%p
+  %b Image:
+  %img{:src => @user.photo, :width => '90px'}
+
 = link_to "Edit", edit_backoffice_profile_path, class: 'btn btn-primary'
