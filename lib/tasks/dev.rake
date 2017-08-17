@@ -71,11 +71,11 @@ namespace :dev do
 
     Social.create(name: 'github', 
                   link: 'https://github.com/lenilsonjr', 
-                  icon: 'github-square', 
+                  icon: 'github', 
                   description: 'open source is not much my thing')
     Social.create(name: 'twitter', 
                   link: 'https://twitter.com/lenilson__jr', 
-                  icon: 'twitter-square', 
+                  icon: 'twitter', 
                   description: 'this account is fake ignore those tweets')
     Social.create(name: 'telegram', 
                   link: 'https://telegram.me/lenilsonjr', 

@@ -20,7 +20,7 @@
         %td= social.name
         %td= social.link
         %td= social.description
-        %td= fa_icon(social.icon)
+        %td= fa_icon(social.icon, class: 'social')
         %td= link_to 'Show', [:backoffice, social]
         %td= link_to 'Edit', edit_backoffice_social_path(social)
         %td= link_to 'Destroy', [:backoffice, social], method: :delete, data: { confirm: 'Are you sure?' }

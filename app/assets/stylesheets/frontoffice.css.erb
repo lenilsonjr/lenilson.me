@@ -12,7 +12,7 @@ html, body, .container-table {
   margin-bottom: 25px;
 }
 body {
-  background-color: #1abc9c;
+  background-color: <%= Setting.find_by_key(:background_color).value %>;
   color: #ecf0f1;
   line-height: 1;
 }
@@ -22,16 +22,8 @@ a, a:focus {
 a:hover {
   color: #ecf0f1;
 }
+
 .description {
   color: #ecf0f1;
   font-size: 14px;
-}
-.social {
-  font-size: 35px;
-}
-
-.social a:hover {
-  font-size: 38px;
-  text-decoration: none;
-  color: #000000;
 }

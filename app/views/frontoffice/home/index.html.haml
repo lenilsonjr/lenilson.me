@@ -11,10 +11,10 @@
               %a{:href => "mailto:#{User.me.email}"}= User.me.name
               %br/
             %p.description= User.me.bio
-            .social
+            .social-icons
               - Social.all.each do |social|
-                %a{:href => social.link, :target => "_blank", :title => social.description}
-                  = fa_icon(social.icon)
+                %a.social-link{:href => social.link, :target => "_blank", :title => social.description}
+                  = fa_icon(social.icon, class: 'social')
     / /.row
   / Projects Row
   - @projects.each do |project|
