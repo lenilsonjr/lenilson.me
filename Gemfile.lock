@@ -70,6 +70,10 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
+    carrierwave (1.1.0)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
+      mime-types (>= 1.16)
     chartkick (2.2.4)
     client_side_validations (9.3.4)
       jquery-rails (~> 4.3)
@@ -279,6 +283,7 @@ DEPENDENCIES
   capistrano-passenger (>= 0.1.1)
   capistrano-rails
   capistrano-rvm
+  carrierwave (~> 1.0)
   chartkick
   client_side_validations
   client_side_validations-simple_form
