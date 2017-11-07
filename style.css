@@ -235,7 +235,7 @@ p {
 
 #photos img {
   position:absolute;
-  left:32%;
+  left:32.5%;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
