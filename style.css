@@ -226,3 +226,22 @@ p>.em {
 p {
   line-height: 20px;
 }
+
+#photos {
+  position:relative;
+  height:140px;
+  margin:0 auto;
+}
+
+#photos img {
+  position:absolute;
+  left:32%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#photos img.top:hover {
+  opacity:0;
+}
