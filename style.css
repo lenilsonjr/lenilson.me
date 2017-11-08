@@ -181,6 +181,16 @@ a.social-link:hover {
   color: white;
 }
 
+.fa-bookmark.social {
+  background: #553b08;
+  color: white;
+}
+
+.fa-medium.social {
+  background: #000;
+  color: white;
+}
+
 .bb {
   width: 400px;
   height: 440px;
