@@ -255,3 +255,8 @@ p {
 #photos img.top:hover {
   opacity:0;
 }
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
