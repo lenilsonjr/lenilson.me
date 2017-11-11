@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <!-- SAI DAQUI MEU -->
+
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>lenilsonjr - web development, life, the universe, and everything else</title>
@@ -9,53 +12,59 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
-    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css" crossorigin="anonymous" async defer>    
     <link rel="stylesheet" href="style.css">    
     <link rel="stylesheet" href="animate.css">    
     
+    <script type="text/javascript">
+      function mouseOverImage() {
+          var img = document.getElementById("mainPhoto");
+          img.src = '/mebaby.jpg';
+      }
+      function mouseOutImage() {
+          var img = document.getElementById("mainPhoto");
+          img.src = '/me.jpg';
+      }
+    </script>
+
   </head>
   <body>
     <!-- Page Content -->
     <div class="container container-table text-center">
 
       <div class="row vertical-center-row">
-        <div class="col-lg-10 col-md-offset-1">            
-          <div class="row bb">
-            <div id="photos" style="margin-top: 50px;">
-                <img alt="Lenilson" height="140px" src="mebaby.jpg" class="bottom img-rounded">
-                <img alt="Lenilson" height="140px" src="me.jpg" class="top img-rounded">
-              </div>
-            <h1>
-              <a href="mailto:me@lenilson.codes">lenilsonjr <i class="em em-rocket"></i></a>
-              <br>
-            </h1>
-            <p class="description">
-              17 yo. just another geek.
-              <br />
-              rails dev <i class="em em-gem"></i>, php bricklayer <i class="em em-wrench"></i>, wordpress hustler <i class="em em-pencil"></i>
-              <br />
-              i like businesses <i class="em em-necktie"></i>, startups <i class="em em-racehorse"></i> and money <i class="em em-moneybag"></i>
-            </p>
-
+        <div class="text-center col-md-6 col-md-offset-4 col-md-push-3 bb">            
+          <img alt="Lenilson" height="140px" src="me.jpg" id="mainPhoto" class="img-rounded" onmouseover="mouseOverImage()" onmouseout="mouseOutImage()">
+          <h1>
+            <a href="mailto:me@lenilson.codes">lenilsonjr <i class="em em-rocket"></i></a>
+            <br>
+          </h1>
+          <p class="description">
+            17 yo. just another geek.
             <br />
-            
-            <div class="social-icons">
-              <a class="social-link" href="https://github.com/lenilsonjr" target="_blank" title="i love open source">
-                <i class="fa fa-github social animated zoomIn"></i>
-              </a>
-              <a class="social-link" href="https://www.goodreads.com/lenilsonjr" target="_blank" title="i read a lot">
-                <i class="fa fa-bookmark social animated zoomIn"></i>
-              </a>
-              <a class="social-link" href="https://www.linkedin.com/in/lenilson-jr-65211652/" target="_blank" title="this is my best business card">
-                <i class="fa fa-linkedin social animated zoomIn"></i>
-              </a>
-              <a class="social-link" href="https://medium.com/@lenilsonjr" target="_blank" title="hear what I say">
-                <i class="fa fa-medium social animated zoomIn"></i>
-              </a>
-              <a class="social-link" href="https://twitter.com/lenilsonjr_" target="_blank" title="sometimes I write a lot of shit">
-                <i class="fa fa-twitter social animated zoomIn"></i>
-              </a>
-            </div>
+            rails dev <i class="em em-gem"></i>, php bricklayer <i class="em em-wrench"></i>, wordpress hustler <i class="em em-pencil"></i>
+            <br />
+            i like businesses <i class="em em-necktie"></i>, startups <i class="em em-racehorse"></i> and money <i class="em em-moneybag"></i>
+          </p>
+
+          <br />
+          
+          <div class="social-icons">
+            <a class="social-link" href="https://github.com/lenilsonjr" target="_blank" title="i love open source">
+              <i class="fa fa-github social animated zoomIn"></i>
+            </a>
+            <a class="social-link" href="https://www.goodreads.com/lenilsonjr" target="_blank" title="i read a lot">
+              <i class="fa fa-bookmark social animated zoomIn"></i>
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/in/lenilson-jr-65211652/" target="_blank" title="this is my best business card">
+              <i class="fa fa-linkedin social animated zoomIn"></i>
+            </a>
+            <a class="social-link" href="https://medium.com/@lenilsonjr" target="_blank" title="hear what I say">
+              <i class="fa fa-medium social animated zoomIn"></i>
+            </a>
+            <a class="social-link" href="https://twitter.com/lenilsonjr_" target="_blank" title="sometimes I write a lot of shit">
+              <i class="fa fa-twitter social animated zoomIn"></i>
+            </a>
           </div>
         </div>
       </div>
