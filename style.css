@@ -18,9 +18,13 @@ body,
 }
 
 body {
-  background-color: #000000;
+  background: #000000 url('/bg.jpg') no-repeat center center fixed;
   color: #ecf0f1;
   line-height: 1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 a,
@@ -39,7 +43,7 @@ a:hover {
 
 .fa.social {
   padding: 15px;
-  font-size: 25px;
+  font-size: 30px;
   width: 55px;
   text-align: center;
   text-decoration: none;
@@ -60,142 +64,14 @@ a.social-link:hover {
 *  Style brands
 */
 
-.fa-github.social {
-  background: #333;
-  color: white;
-}
-
-.fa-send.social {
-  background: #0088cc;
-  color: white;
-}
-
-.fa-facebook.social {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter.social {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google.social {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin.social {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube.social {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram.social {
-  background: #125688;
-  color: white;
-}
-
-.fa-pinterest.social {
-  background: #cb2027;
-  color: white;
-}
-
-.fa-snapchat-ghost.social {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa-skype.social {
-  background: #00aff0;
-  color: white;
-}
-
-.fa-android.social {
-  background: #a4c639;
-  color: white;
-}
-
-.fa-dribbble.social {
-  background: #ea4c89;
-  color: white;
-}
-
-.fa-vimeo.social {
-  background: #45bbff;
-  color: white;
-}
-
-.fa-tumblr.social {
-  background: #2c4762;
-  color: white;
-}
-
-.fa-vine.social {
-  background: #00b489;
-  color: white;
-}
-
-.fa-foursquare.social {
-  background: #45bbff;
-  color: white;
-}
-
-.fa-stumbleupon.social {
-  background: #eb4924;
-  color: white;
-}
-
-.fa-flickr.social {
-  background: #f40083;
-  color: white;
-}
-
-.fa-yahoo.social {
-  background: #430297;
-  color: white;
-}
-
-.fa-soundcloud.social {
-  background: #ff5500;
-  color: white;
-}
-
-.fa-reddit.social {
-  background: #ff5700;
-  color: white;
-}
-
-.fa-rss.social {
-  background: #ff6600;
-  color: white;
-}
-
-.fa-spotify.social {
-  background: #84bd00;
-  color: white;
-}
-
-.fa-bookmark.social {
-  background: #553b08;
-  color: white;
-}
-
-.fa-medium.social {
-  background: #000;
+.social{
   color: white;
 }
 
 .bb {
-  width: 400px;
+  width: 500px;
   height: 440px;
   margin: auto;
-  color: #69ca62;
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: 0 2px, 0 100%, 0% 2px;
@@ -207,21 +83,21 @@ a.social-link:hover {
 @keyframes border {
   0%,
   100% {
-    background-color: #55b14c;
+    background-color: #3498db;
   }
   25% {
-    background-color: #5b9956;
+    background-color: #297bad;
   }
   50% {
-    background-color: #55b14c;
+    background-color: #2377ac;
   }
   75% {
-    background-color: #5b9956;
+    background-color: #0e5683;
   }
 }
 
 hr {
-  border-color: #000000;
+  border-color: #3498db;
   border-width: 2px;
 }
 
@@ -245,7 +121,7 @@ p {
 
 #photos img {
   position:absolute;
-  left:32.5%;
+  left:35%;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
