@@ -1,1 +1,2 @@
 gem 'capistrano'
+gem 'dotenv'
