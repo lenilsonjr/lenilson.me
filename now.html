@@ -81,7 +81,6 @@
     xmlHttp.onreadystatechange = function() {
       if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
         data = JSON.parse(xmlHttp.responseText);
-        console.log(data);
 
         document.querySelector(".reading").innerHTML = data.reading;
         document.querySelector(".listening").innerHTML = data.listening;
