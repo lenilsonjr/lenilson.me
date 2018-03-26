@@ -37,8 +37,8 @@
     background-size: auto;
   }
   .wrapper {
-    padding: 100px 0;
-    font-size: 20px;
+    padding: 30px 0;
+    /* font-size: 20px; */
   }
 }
 
@@ -57,7 +57,7 @@
   background-color: rgba(236, 240, 241,0.7);
   font-family: Tahoma, Geneva, sans-serif;
   text-align: left;
-  width: 97%;
+  width: 96.9%;
   margin: 4px;
   border: 2px solid #2980b9;
   border-radius: 4px;
