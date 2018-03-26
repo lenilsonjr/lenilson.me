@@ -23,6 +23,7 @@ require 'open-uri'
 require 'active_support/core_ext/hash'
 require 'json'
 require 'nokogiri'
+require 'wikipedia'
 
 Dotenv.load('now.env')
 data = Hash.new
@@ -100,5 +101,27 @@ products.each do |product|
   data[:building].push([product['name'], product['url']]) if Date.today - 8 <= Date.parse(product['updated_at'])
 end
 # End of WIP
+
+# Location (via Twitter)
+twitteruser = ENV['TWITTERUSER']
+url = "https://twitter.com/#{twitteruser}"
+twitter = Nokogiri::HTML(open(url))
+
+#Get second tweet bc the first is the pinned one
+lasttweet = twitter.css("a.tweet-timestamp[href^='/#{twitteruser}/status']")[1]
+lasttweet = Nokogiri::HTML(open("https://twitter.com#{lasttweet.attr('href')}"))
+
+location = lasttweet.css(".js-geo-pivot-link").children.to_s
+
+Wikipedia.configure {
+  domain 'pt.wikipedia.org'
+  path   'w/api.php'
+}
+wikipedia = Wikipedia.find(location.split(', ').first)
+
+data[:location] = Hash.new
+data[:location][:html] = "<a target='_blank' href='#{wikipedia.fullurl}'>#{location}</a>  <i class='em em-flag-br'></i>"
+data[:location][:image] = "url('#{wikipedia.image_urls.last}')"
+# End of location
 
 File.open(ENV['DATAJSON'], 'w') { |file| file.write(data.to_json) }

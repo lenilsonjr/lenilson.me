@@ -33,6 +33,7 @@
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <div class="background-image"></div>
     <div class="body">
     <div class="wrapper"> 
 
@@ -48,8 +49,7 @@
 
             <li>
               <i class="em em-round_pushpin"></i>
-              Located in <a target="_blank" href="https://en.wikipedia.org/wiki/Recife">Recife, Brazil</a>
-              <i class="em em-flag-br"></i>
+              Located in <span class="location"></span>
             </li>
             <li>
               <i class="em em-male-technologist"></i>
@@ -84,7 +84,9 @@
 
         document.querySelector(".reading").innerHTML = data.reading;
         document.querySelector(".listening").innerHTML = data.listening;
-
+        document.querySelector(".location").innerHTML = data.location.html
+        document.querySelector(".background-image").style.backgroundImage = data.location.image
+        
         data.building.forEach(function(building) {
           element = "<li><i class='em em-building_construction'></i> Building <a target='_blank' href='"+building[1]+"'>"+building[0]+"</a></li>";
           document.querySelector(".building").parentNode.insertAdjacentHTML('beforeend', element);

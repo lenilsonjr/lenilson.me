@@ -1,11 +1,11 @@
-.body:before {
-  content: "";
+.background-image {
   position: fixed;
   left: 0;
   right: 0;
   z-index: -1;
 
-  background: #3498db url('http://www.vidadeturista.com/wp-content/uploads/2009/03/recife-pe.jpg') no-repeat;
+  background-color: #3498db;
+  background-repeat no-repeat;
 
   transform: scale(1.1);
   display: block;
@@ -33,7 +33,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .body:before {
+  .background-image {
     background-size: auto;
   }
   .wrapper {
@@ -43,7 +43,7 @@
 }
 
 @media (min-width: 1025px) {
-  .body:before {
+  .background-image {
     background-size: 100%;
   }
   .wrapper {
