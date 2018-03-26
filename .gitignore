@@ -1,2 +1,4 @@
 log/capistrano.log
 config/deploy/production.rb
+now.env
+now.json

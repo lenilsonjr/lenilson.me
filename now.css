@@ -55,8 +55,9 @@
   padding: 20px;
 }
 
-.card > .content a {
+.card > .content a, .card > .content a:visited {
   text-decoration: none;
+  color: #2980b9;
 }
 
 .card > .content > ul {

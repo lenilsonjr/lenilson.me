@@ -17,17 +17,19 @@ def sentence(array)
   end
 end
 
+require 'dotenv'
 require 'net/https'
 require 'open-uri'
 require 'active_support/core_ext/hash'
 require 'json'
 require 'nokogiri'
 
+Dotenv.load('now.env')
 data = Hash.new
 
 # Last.fm
-fmkey = ""
-fmuser = "lenilsonjr"
+fmkey = ENV['LASTFM_KEY']
+fmuser = ENV['LASTFM_USER']
 
 url = URI.parse("http://ws.audioscrobbler.com/2.0/?method=user.getweeklytrackchart&user=#{fmuser}&api_key=#{fmkey}&format=json")
 req = Net::HTTP::Get.new(url.to_s)
@@ -47,8 +49,8 @@ data[:listening] = sentence(artists)
 # End of Last.fm
 
 # Goodreads
-grkey = ""
-gruser = "73188841"
+grkey = ENV['GOODREADS_KEY']
+gruser = ENV['GOODREADS_USER']
 
 url = URI.parse("https://www.goodreads.com/review/list?key=#{grkey}&id=#{gruser}&v=2&shelf=currently-reading").read
 req = Hash.from_xml(url)["GoodreadsResponse"]
@@ -62,15 +64,15 @@ if req['reviews']['review'].is_a?(Array)
   end
 else
   book = req['reviews']['review']['book']['title_without_series']
-  books.push(book)
+  books.push(book.split(':').first)
 end
 
 data[:reading] = sentence(books)
 # End of Goodreads
 
 # WIP
-wipuser = '698'
-wiptoken = ''
+wipuser = ENV['WIP_USER']
+wiptoken = ENV['WIP_KEY']
 
 query = { query: "{
  	user(id: #{wipuser}) {
@@ -95,9 +97,8 @@ products = JSON.parse(res.body)['data']['user']['products']
 data[:building] = Array.new
 
 products.each do |product|
-  data[:building].push([product['name'], product['url']) if Date.today - 8 <= Date.parse(product['updated_at'])
+  data[:building].push([product['name'], product['url']]) if Date.today - 8 <= Date.parse(product['updated_at'])
 end
 # End of WIP
 
-File.open('data.json', 'w') { |file| file.write(data.to_json) }
-puts data
+File.open(ENV['DATAJSON'], 'w') { |file| file.write(data.to_json) }
