@@ -18,6 +18,7 @@ GEM
     sshkit (1.14.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    wikipedia-client (1.10.0)
 
 PLATFORMS
   ruby
@@ -25,6 +26,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano
   dotenv
+  wikipedia-client
 
 BUNDLED WITH
    1.16.1
