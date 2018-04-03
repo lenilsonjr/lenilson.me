@@ -32,18 +32,16 @@ data = Hash.new
 fmkey = ENV['LASTFM_KEY']
 fmuser = ENV['LASTFM_USER']
 
-url = URI.parse("http://ws.audioscrobbler.com/2.0/?method=user.getweeklytrackchart&user=#{fmuser}&api_key=#{fmkey}&format=json")
+url = URI.parse("http://ws.audioscrobbler.com/2.0/?method=user.getweeklyartistchart&user=#{fmuser}&api_key=#{fmkey}&format=json")
 req = Net::HTTP::Get.new(url.to_s)
 res = Net::HTTP.start(url.host, url.port) {|http|
   http.request(req)
 }
-tracks = JSON.parse(res.body)['weeklytrackchart']['track']
-
+artists_unparsed = JSON.parse(res.body)['weeklyartistchart']['artisti'].first(4)
 artists = []
 
-tracks.each do |track|
-  artist = track['artist']['#text']
-  artists.push(artist) if artists.size < 3 && !artists.include?(artist)
+artists_unparsed.each do |artist|
+  artists.push(artist['name'])
 end
 
 data[:listening] = sentence(artists)
