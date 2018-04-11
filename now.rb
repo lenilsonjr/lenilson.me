@@ -59,7 +59,7 @@ books = []
 if req['reviews']['review'].is_a?(Array)
   req['reviews']['review'].each do |book|
     book = book['book']['title_without_series']
-    books.push(book)
+    books.push(book.split(':').first)
   end
 else
   book = req['reviews']['review']['book']['title_without_series']
