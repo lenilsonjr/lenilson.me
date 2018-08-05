@@ -96,7 +96,7 @@ products = JSON.parse(res.body)['data']['user']['products']
 data[:building] = Array.new
 
 products.each do |product|
-  data[:building].push([product['name'], product['url']]) if Date.today - 8 <= Date.parse(product['updated_at'])
+  data[:building].push([product['name'], product['url']]) if Date.today - 30 <= Date.parse(product['updated_at'])
 end
 # End of WIP
 
@@ -118,8 +118,8 @@ Wikipedia.configure {
 wikipedia = Wikipedia.find(location.split(', ').first)
 
 data[:location] = Hash.new
-data[:location][:html] = "<a target='_blank' href='#{wikipedia.fullurl}'>#{location}</a>  <i class='em em-flag-br'></i>"
-data[:location][:image] = "url('#{wikipedia.main_image_url}')"
+data[:location][:html] = "<a target='_blank' href='#{wikipedia.fullurl}'>#{location}</a> 🇧🇷"
+data[:location][:image] = "url('#{wikipedia.image_urls.first}')"
 # End of location
 
 File.open(ENV['DATAJSON'], 'w') { |file| file.write(data.to_json) }
