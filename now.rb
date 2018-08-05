@@ -100,26 +100,26 @@ products.each do |product|
 end
 # End of WIP
 
-# Location (via Twitter)
-twitteruser = ENV['TWITTERUSER']
-url = "https://twitter.com/#{twitteruser}"
-twitter = Nokogiri::HTML(open(url))
-
-#Get second tweet bc the first is the pinned one
-lasttweet = twitter.css("a.tweet-timestamp[href^='/#{twitteruser}/status']")[1]
-lasttweet = Nokogiri::HTML(open("https://twitter.com#{lasttweet.attr('href')}"))
-
-location = lasttweet.css(".js-geo-pivot-link").children.to_s
+# Location (via NomadList)
+url = URI.parse("https://nomadlist.com/@#{ENV['NOMADLISTUSER']}.json")
+req = Net::HTTP::Get.new(url.to_s)
+res = Net::HTTP.start(url.host, url.port, use_ssl: true) {|http|
+  http.request(req)
+}
+location = JSON.parse(res.body)['location']
 
 Wikipedia.configure {
-  domain 'pt.wikipedia.org'
+  domain 'en.wikipedia.org'
   path   'w/api.php'
 }
-wikipedia = Wikipedia.find(location.split(', ').first)
+wikipedia = Wikipedia.find(location['now']['city'])
 
 data[:location] = Hash.new
-data[:location][:html] = "<a target='_blank' href='#{wikipedia.fullurl}'>#{location}</a> 🇧🇷"
+data[:location][:html] = "<a target='_blank' href='#{wikipedia.fullurl}'>#{location['now']['city']}, #{location['now']['country']}</a> #{location['now']['country_code'].upcase.tr('A-Z', "\u{1F1E6}-\u{1F1FF}")}"
 data[:location][:image] = "url('#{wikipedia.image_urls.first}')"
+
+data[:next_location] = Hash.new
+data[:next_location][:html] = "#{location['next']['city']}, #{location['next']['country']} #{location['next']['country_code'].upcase.tr('A-Z', "\u{1F1E6}-\u{1F1FF}")} in #{(Date.parse(location['next']['date_start']) - Date.today).to_i} days"
 # End of location
 
 File.open(ENV['DATAJSON'], 'w') { |file| file.write(data.to_json) }

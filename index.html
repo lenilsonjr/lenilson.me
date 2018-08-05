@@ -52,6 +52,7 @@
                         <a class="social-link" href="https://lenilson.blog" target="_blank" title="writing">📝</a>
                         <a class="social-link" href="https://www.last.fm/user/lenilsonjr" target="_blank" title="listening">🎶</a>
                         <a class="social-link" href="https://twitter.com/lenilsonjr_" target="_blank" title="philosophizing">🤔</a>
+                        <a class="social-link" href="https://nomadlist.com/@lenilsonjr" target="_blank" title="traveling">✈️</a>
                       </div>
                     </p>
                   </article>
@@ -62,7 +63,7 @@
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child notification is-success">
+                  <article class="tile is-child notification is-success has-text-left">
                     <p class="title">🤔 What I'm up to lately</p>
                     <ul>
                       <li>
@@ -97,13 +98,13 @@
                 <article class="tile is-child notification is-link has-text-left background-image" style="padding: 0px!important; background-position: center;">
                   <div style="background-color:rgba(0, 0, 0, 0.8); padding: 22px; border-radius: 4px;">
                     <p class="title">📌 Currently in <span class="location"></span></p>
-                    <p class="subtitle">🛫 Leaving for <span class="next-city">Madrid 🇪🇸<span> in <span>December 4</span></p>
+                    <p class="subtitle">🛫 Leaving for <span class="next_location"><span></p>
                   </div>
                 </article>
               </div>
             </div>
             <div class="tile is-parent">
-              <article class="tile is-child notification is-link">
+              <article class="tile is-child notification is-link has-text-left">
                 <p class="title">👨‍💻 Currently building stuff</p>
                 <ul class="building">
                 </ul>
@@ -126,6 +127,7 @@
         document.querySelector(".reading").innerHTML = data.reading;
         document.querySelector(".listening").innerHTML = data.listening;
         document.querySelector(".location").innerHTML = data.location.html
+        document.querySelector(".next_location").innerHTML = data.next_location.html
         document.querySelector(".background-image").style.backgroundImage = data.location.image
         
         data.building.forEach(function(building) {
