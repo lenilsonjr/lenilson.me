@@ -96,7 +96,7 @@ products = JSON.parse(res.body)['data']['user']['products']
 data[:building] = Array.new
 
 products.each do |product|
-  data[:building].push([product['name'], product['url']]) if Date.today - 30 <= Date.parse(product['updated_at'])
+  data[:building].push([product['name'], product['url']]) if Date.today - 8 <= Date.parse(product['updated_at'])
 end
 # End of WIP
 
