@@ -6,7 +6,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
     {%- for post in site.posts -%}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <section class="hero is-info is-medium is-bold" {%- if post.cover and post.cover.size > 0 -%}style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{% asset_path {{post.cover}} {{post.id}} %}')"{%- endif -%}>
+      <section class="hero is-info is-medium is-bold" {%- if post.cover and post.cover.size > 0 -%}style="background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('{% asset_path {{post.cover}} {{post.id}} %}')"{%- endif -%}>
         <a href="{{ post.url | relative_url }}">
           <div class="hero-body">
             <div class="container has-text-centered">
