@@ -1,0 +1,113 @@
+{% if page.layout == 'home' %}
+<section id="main-hero" class="hero is-dark is-fullheight">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child is-primary">
+                <img alt="Lenilson" src="/assets/me.jpg" id="main-photo" class="is-rounded is-horizontal-center8" width="220px" style="margin-bottom: 10px; border-radius: 10%;">
+                <p class="title">👋 Hello, I'm Lenilson</p>
+                <p class="subtitle">
+                  <div class="social-icons">
+                    <a class="social-link" href="https://github.com/lenilsonjr" target="_blank" title="coding">👨‍💻</a>
+                    <a class="social-link" href="https://www.goodreads.com/lenilsonjr" target="_blank" title="reading">📚</a>
+                    <a class="social-link" href="https://wip.chat/@lenilsonjr" target="_blank" title="shipping">🚧</a>
+                    <a class="social-link" href="https://lenilson.blog" target="_blank" title="writing">📝</a>
+                    <a class="social-link" href="https://www.last.fm/user/lenilsonjr" target="_blank" title="listening">🎶</a>
+                    <a class="social-link" href="https://twitter.com/lenilsonjr_" target="_blank" title="philosophizing">🤔</a>
+                    <a class="social-link" href="https://nomadlist.com/@lenilsonjr" target="_blank" title="traveling">✈️</a>
+                  </div>
+                </p>
+              </article>
+              <article class="tile is-child notification is-info">
+                <p class="subtitle">
+                  👉 I'm a freeelancer web developer 👨‍💻 and maker 🚧, usually working with Ruby 💎, Rails 🛤, PHP 🧙‍, WordPress 📝, React 🧠 and React Native 📱
+                </p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-success has-text-left">
+                <p class="title">🤔 What I'm up to lately</p>
+                <ul>
+                  <li>
+                    📚
+                    Reading <a target="_blank" href="https://www.goodreads.com/user/show/73188841-lenilson-jr" class="reading"></a>
+                  </li>
+                  <li>
+                    🎶
+                    Listening a lot to <a target="_blank" href="https://www.last.fm/user/lenilsonjr" class="listening"></a>
+                  </li>
+                  <li>
+                    ✈️
+                    Starting to slowmad in Brazil
+                  </li>
+                  <li>
+                    💰
+                    Saving money to spend some time in the Balkans
+                  </li>
+                  <li>
+                    🤩
+                    Currently obsessed about indie startups and SaaS
+                  </li>
+                  <li>
+                    🤓
+                    Getting interested in marketing, SEO and all that jazz
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-link has-text-left background-image" style="padding: 0px!important; background-position: center;">
+              <div style="background-color:rgba(0, 0, 0, 0.8); padding: 22px; border-radius: 4px;">
+                <p class="title">📌 Currently in <span class="location"></span></p>
+                <p class="subtitle">🛫 Leaving for <span class="next_location"><span></p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-link has-text-left">
+            <p class="title">👨‍💻 Currently building stuff</p>
+            <ul class="building">
+            </ul>
+            <hr>
+            I'm currently taking freelance contracts! Hit me up on <a href="https://twitter.com/messages/compose?recipient_id=3817379219" target="_blank">Twitter</a> or send me an <a href="mailto:hi@lenilson.me">e-mail</a> to check my next available date.
+          </article>
+        </div>
+      </div>
+      <div id="scroll">
+        <a><span></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+{% elsif page.layout == 'post' %}
+<section id="main-hero" class="hero is-dark is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <article class="media">
+            <figure class="media-left">
+              <p class="image is-96x96">
+                <img alt="Lenilson" src="/assets/me.jpg" id="main-photo" class="is-rounded" width="80px" style="border-radius: 10%;">
+              </p>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong>👋 Hello, I'm Lenilson</strong>
+                  <br>
+                  I'm a freeelancer developer and maker currently in <span class="location"></span>. I like traveling, SaaS, and good contracts. You can know more about me <a href="/">here</a>. 🚀
+                </p>
+              </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
