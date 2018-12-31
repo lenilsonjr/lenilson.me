@@ -9,6 +9,7 @@
   {%- feed_meta -%}
   
   {%- if page.cover and page.cover.size > 0 -%}
+    <meta name="twitter:card"  content="summary_large_image">
     <meta property="og:image" content="{{ site.url }}{% asset_path {{page.cover}} {{page.id}} %}">
   {%- endif -%}
 
