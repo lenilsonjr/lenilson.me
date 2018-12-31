@@ -115,11 +115,15 @@ Wikipedia.configure {
 wikipedia = Wikipedia.find(location['now']['city'])
 
 data[:location] = Hash.new
-data[:location][:html] = "<a target='_blank' href='#{wikipedia.fullurl}'>#{location['now']['city']}, #{location['now']['country']}</a> #{location['now']['country_code'].upcase.tr('A-Z', "\u{1F1E6}-\u{1F1FF}")}"
+data[:location][:html] = "Leaving for <a target='_blank' href='#{wikipedia.fullurl}'>#{location['now']['city']}, #{location['now']['country']}</a> #{location['now']['country_code'].upcase.tr('A-Z', "\u{1F1E6}-\u{1F1FF}")}"
 data[:location][:image] = "url('#{wikipedia.image_urls.first}')"
 
 data[:next_location] = Hash.new
-data[:next_location][:html] = "#{location['next']['city']}, #{location['next']['country']} #{location['next']['country_code'].upcase.tr('A-Z', "\u{1F1E6}-\u{1F1FF}")} in #{(Date.parse(location['next']['date_start']) - Date.today).to_i} days"
+if !location['next']['city'].nil?
+  data[:next_location][:html] = "#{location['next']['city']}, #{location['next']['country']} #{location['next']['country_code'].upcase.tr('A-Z', "\u{1F1E6}-\u{1F1FF}")} in #{(Date.parse(location['next']['date_start']) - Date.today).to_i} days"
+else 
+  data[:next_location][:html] = "With no plans after leaving #{location['now']['city']} on #{Date.parse(location['now']['date_end']).strftime("%B %e")}. Any recommendation of a nice city nearby? Drop me a Tweet"
+end
 # End of location
 
 File.open(ENV['DATAJSON'], 'w') { |file| file.write(data.to_json) }
