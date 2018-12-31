@@ -2,6 +2,7 @@
 layout: post
 title:  "My 2018 was crazy. Here's my year in tweets"
 date:   2018-12-31 08:00:00 +0200
+cover: "cover.png"
 ---
 *I'm writing this inspired by [this Pieter Levels post](https://levels.io/love-anxiety-and-startups/) and this [Pat Walls article](https://patwalls.co/the-best-year-of-my-life-in-35-tweets).*
 
@@ -229,7 +230,7 @@ So I got a passport in Petrolina, and took the leap: bought a one-way ticket to 
 
 By the end of July I decided to fly back to my hometown with a clear goal in my mind: **use these four months before my trip to totally internationalize my income.**
 
-I got this done by September, when I landed a flexible position as a contractor in a remote-first software studio, paying 10x~20x more than my position in Recife.
+I got this done by September, when I landed a flexible position as a contractor in a remote-first software studio, paying 10x more than my position in Recife.
 
 On the first week I knew we were a match. The team is full of makers, entrepreneurs, and digital nomads. We really attract what we emanate.
 
