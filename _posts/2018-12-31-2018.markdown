@@ -3,7 +3,6 @@ layout: post
 title:  "My 2018 was crazy. Here's my year in tweets"
 date:   2018-12-31 08:00:00 +0200
 ---
-
 *I'm writing this inspired by [this Pieter Levels post](https://levels.io/love-anxiety-and-startups/) and this [Pat Walls article](https://patwalls.co/the-best-year-of-my-life-in-35-tweets).*
 
 I can totally say 2018 was the best year of my life so far. Of course, that doesn't count for much since I'm just 18, but using a parallel of how most of my friends are living (not to compare myself, but just as a pure exercise of gratitude), I'm doing pretty fine.
@@ -20,7 +19,8 @@ However, I was miserable. Nothing was happening in my life. Everyday looked exac
 
 My hobby? Crypto trading (as everyone at the time, I believe.)
 
-[https://twitter.com/lenilsonjr_/status/948211721004617728](https://twitter.com/lenilsonjr_/status/948211721004617728)
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Crypto trading has teached me more about human psychology (including my own) than about finances</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/948211721004617728?ref_src=twsrc%5Etfw">January 2, 2018</a></blockquote>
 
 Man, I was horrible at trading.
 
@@ -38,7 +38,7 @@ But it started small.
 
 I became Leo's [HyperPing](https://hyperping.io/) first customer (crazy to think that this probably ignited a series of events in his life too), and he convinced me to pay for a WIP membership.
 
-[https://twitter.com/lenilsonjr_/status/950748320816910338](https://twitter.com/lenilsonjr_/status/950748320816910338)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I need to get used to do more things remotely. Many things I think I can only solve in presence when in fact they can be solved remotely from any part of the planet</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/950748320816910338?ref_src=twsrc%5Etfw">January 9, 2018</a></blockquote>
 
 Before 2018, my entire reality was the reality of most tech workers in Brazil: bullshit paychecks, bullshit startups, long commutes, bosses who clearly needed psychiatric help, and an overall stressful life.
 
@@ -48,7 +48,7 @@ From that point, all I wanted to do was to escape 9-5 and build my own products.
 
 While still in Petrolina, and with only a 3G connection, I started shipping my first side-project after WIP: ScreenMug.
 
-[https://twitter.com/lenilsonjr_/status/954865339619307520](https://twitter.com/lenilsonjr_/status/954865339619307520)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">👉 I&#39;m almost a mug salesman ☕<a href="https://t.co/DrfpmdQqEk">https://t.co/DrfpmdQqEk</a><br><br>Still have no idea how to properly launch 🤷‍♂️ (or I&#39;m just fearful)</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/954865339619307520?ref_src=twsrc%5Etfw">January 20, 2018</a></blockquote>
 
 The language was Portuguese, and the idea was that you could order a mug with any image on it.
 
@@ -56,11 +56,11 @@ I didn't really care if it was going to work out or not (maybe I cared a bit). I
 
 So I launched it. It of course didn't make any sales, but I shipped the product. And that was enough to keep me going.
 
-[https://twitter.com/lenilsonjr_/status/955543026717417472](https://twitter.com/lenilsonjr_/status/955543026717417472)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/wipchat?ref_src=twsrc%5Etfw">@wipchat</a> is so powerful that it made me launch a product in 15 days. I&#39;m hooked.</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/955543026717417472?ref_src=twsrc%5Etfw">January 22, 2018</a></blockquote>
 
 That launch was especially important to me, because in December 2017 I had put a small side-project out there, a simple crypto-portfolio tracker, and the only feedback I got from the outside world was this:
 
-[https://twitter.com/lenilsonjr_/status/951397778030301184](https://twitter.com/lenilsonjr_/status/951397778030301184)
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr">🤷‍♂️ <a href="https://t.co/5HUJLpNpWv">pic.twitter.com/5HUJLpNpWv</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/951397778030301184?ref_src=twsrc%5Etfw">January 11, 2018</a></blockquote>
 
 Yikes.
 
@@ -70,13 +70,13 @@ That was my final wake up call: ***leave your job, leave Recife, this path is no
 
 To escape reality while I didn't have the courage to leave my job, I started spending most of my days with virtual people.
 
-[https://twitter.com/lenilsonjr_/status/956583511804260353](https://twitter.com/lenilsonjr_/status/956583511804260353)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m spending A LOT of time lurking on Twitter and Telegram these last few days 👀</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/956583511804260353?ref_src=twsrc%5Etfw">January 25, 2018</a></blockquote>
 
 But I knew my time was coming.
 
 On February, I got a notice from my boss for screaming in the office while this was happening:
 
-[https://twitter.com/elonmusk/status/960992715579125760](https://twitter.com/elonmusk/status/960992715579125760)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">View from SpaceX Launch Control. Apparently, there is a car in orbit around Earth. <a href="https://t.co/QljN2VnL1O">pic.twitter.com/QljN2VnL1O</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/960992715579125760?ref_src=twsrc%5Etfw">February 6, 2018</a></blockquote>
 
 Falcon Heavy launch (a literal launch, so to say) totally blew out my mind. ***Damn, big things are really possible.***
 
@@ -96,31 +96,31 @@ And that's what I did.
 
 On March 1 I gave a 30-day notice to my boss.
 
-[https://twitter.com/lenilsonjr_/status/969035136284192768](https://twitter.com/lenilsonjr_/status/969035136284192768)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">All existential questions always come down to &quot;WHAT THE FUCK AM I GOING TO DO WITH MY LIFE?&quot;</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/969035136284192768?ref_src=twsrc%5Etfw">March 1, 2018</a></blockquote>
 
 March was a strange month. I was still afraid of leaving my job, I was still afraid of doing my own thing, but I took the first step, and I just needed to play along.
 
 I decided to go full minimalist, and trashed a lot of my stuff before leaving Recife.
 
-[https://twitter.com/lenilsonjr_/status/972915006554755072](https://twitter.com/lenilsonjr_/status/972915006554755072)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I just got rid of 142 things in my apartment and the feeling is like breathing again after being underwater for some time</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/972915006554755072?ref_src=twsrc%5Etfw">March 11, 2018</a></blockquote>
 
 It was also in March that I bought a MacBook, one of my best decisions in the year.
 
-[https://twitter.com/lenilsonjr_/status/976056453483155456](https://twitter.com/lenilsonjr_/status/976056453483155456)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m gonna have a hard time getting used to Mac&#39;s keyboard 😛</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/976056453483155456?ref_src=twsrc%5Etfw">March 20, 2018</a></blockquote>
 
 I also discovered that I love working from coffee shops.
 
-[https://twitter.com/lenilsonjr_/status/977596810964455424](https://twitter.com/lenilsonjr_/status/977596810964455424)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">First time (((((really))))) working from a coffee shop. 12 hours of battery = freedom 👨‍💻☕️</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/977596810964455424?ref_src=twsrc%5Etfw">March 24, 2018</a></blockquote>
 
 By the end of March, there I was. Excited with something for the first time in months.
 
 Still, I had the same level of fear as before. It was no coincidence that I was moving back to my hometown. Yes, it was scary to leave a life I've been building for almost a year, so I needed a safety net, and being in my hometown, near people I knew, and near my parents, gave me the security I needed.
 
-[https://twitter.com/lenilsonjr_/status/979116958900740096](https://twitter.com/lenilsonjr_/status/979116958900740096)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today is probably my last night in Recife 🇧🇷 Feeling pretty uncertain about the future, which is probably a good thing haha</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/979116958900740096?ref_src=twsrc%5Etfw">March 28, 2018</a></blockquote>
 
 On this Tweet, [Javi](https://twitter.com/rameerez) gave me the best advice I could ever receive at the moment: **figure out stuff as you go**.
 
-[https://twitter.com/rameerez/status/979151060970467328](https://twitter.com/rameerez/status/979151060970467328)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Actually I&#39;m still trying to figure this out myself — don&#39;t take my advice, just start doing stuff and see what works best for you</p>&mdash; 🌯 Rameerez (@rameerez) <a href="https://twitter.com/rameerez/status/979151060970467328?ref_src=twsrc%5Etfw">March 29, 2018</a></blockquote>
 
 I left Recife in a total indie maker mentality. I didn't want a 9-5 job again, ever, and I wasn't excited to get back on freelancing any time soon.
 
@@ -128,21 +128,19 @@ I had a shot. A place to stay, a few weeks of runaway and a laptop. And that was
 
 One of the very first things I did when I moved in with [Rannyeri](https://rannyeribaptist.github.io/) and [Luan](https://idlua.me/) (my new flatmates) was to turn my wardrobe grey:
 
- 
-
-[https://twitter.com/lenilsonjr_/status/980799858276782080](https://twitter.com/lenilsonjr_/status/980799858276782080)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just bought ten of these for 200 BRL. A steal. <a href="https://twitter.com/hashtag/minimalism?src=hash&amp;ref_src=twsrc%5Etfw">#minimalism</a> <a href="https://t.co/pDJjdHEXE1">pic.twitter.com/pDJjdHEXE1</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/980799858276782080?ref_src=twsrc%5Etfw">April 2, 2018</a></blockquote>
 
 *I still have the same 10 t-shirts btw.*
 
 The life in the apartment was exactly as I imagined. I wasn't paying a cent of rent, just sleeping on a couch and sharing pizzas with my friends.
 
-[https://twitter.com/lenilsonjr_/status/980996073476026368](https://twitter.com/lenilsonjr_/status/980996073476026368)
+<blockquote class="twitter-tweet"><p lang="da" dir="ltr">dark af <a href="https://t.co/tW0aZDy7rd">pic.twitter.com/tW0aZDy7rd</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/980996073476026368?ref_src=twsrc%5Etfw">April 3, 2018</a></blockquote>
 
 Life there felt good for the first time in months.
 
-I couldn't escape freelance tho, my fear of running out of money still existed (and was quite real), so my days were a mix of doing my own stuff and doing stuff for other people.
+I couldn't escape freelancing tho, my fear of running out of money still existed (and was quite real), so my days were a mix of doing my own stuff and doing stuff for other people.
 
-[https://twitter.com/lenilsonjr_/status/981872188016951297](https://twitter.com/lenilsonjr_/status/981872188016951297)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🔥 This week has been hellish af (and also fun af)<br><br>👨‍💻 I&#39;m focused on finishing my contract works so I can enter next week entirely focused on 🚢 shipping<br><br>⏰ Time is ticking <a href="https://t.co/KkzWiri8SO">pic.twitter.com/KkzWiri8SO</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/981872188016951297?ref_src=twsrc%5Etfw">April 5, 2018</a></blockquote>
 
 I spent a total of one month couchsurfing in their apartment. Working on [chamados.io](https://chamados.io) and a few contracts. By the start of May I was sleeping on my old bed at my parents.
 
@@ -150,7 +148,7 @@ But the truth was that my hometown was boring af. At least in that moment of my 
 
 I was scared of being trapped again.
 
-[https://twitter.com/lenilsonjr_/status/991149693882204160](https://twitter.com/lenilsonjr_/status/991149693882204160)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">don&#39;t run away from your demons 👹, they will always come back harder</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/991149693882204160?ref_src=twsrc%5Etfw">May 1, 2018</a></blockquote>
 
 So I decided to go to a tech conference in Salvador, with a few friends. A fairly short trip to renew my energies.
 
@@ -158,9 +156,7 @@ At this point my entire life could fit inside two backpacks, and I could work fr
 
 Salvador got the job done. This 4-day trip was enough to give me a taste that there was LOTS of places to see in the world. I felt totally renewed, and I definitely didn't want to stay home.
 
- 
-
-[https://twitter.com/lenilsonjr_/status/997082501477642240](https://twitter.com/lenilsonjr_/status/997082501477642240)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today&#39;s workplace <a href="https://t.co/k9kWWRHXPS">pic.twitter.com/k9kWWRHXPS</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/997082501477642240?ref_src=twsrc%5Etfw">May 17, 2018</a></blockquote>
 
 But I still had plenty of problems to take care before really hitting the road.
 
@@ -173,15 +169,15 @@ So I bought the cheapest one-way ticket I could find, $60 to fly to... Petrolina
 
 I spent two months there, from June to the end of July. I was slowly building confidence to travel to other places.
 
-[https://twitter.com/lenilsonjr_/status/1001299371424649217](https://twitter.com/lenilsonjr_/status/1001299371424649217)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">tl;dr: money is still an issue. marketing is hard. I don&#39;t feel confident enough to go international yet.</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1001299371424649217?ref_src=twsrc%5Etfw">May 29, 2018</a></blockquote>
 
-[https://twitter.com/lenilsonjr_/status/1000912579336835072](https://twitter.com/lenilsonjr_/status/1000912579336835072)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Packing 🎒 (and experimenting 👨‍🔬) for a 1~2 months trip:<br>👞 2 pairs of socks<br>👖 2 elastic shorts<br>👖 2 jeans shorts<br>👙10 pieces of underwear<br>👕 7 grey T-shirts<br>🛁 1 bath kit (deodorant, shampoo, etc)<br>🕶️ 1 sunglasses 🕶️<br>🎩 1 cap<br>👡 1 pair of flip flops<br>👟 1 pair of sneakers <a href="https://t.co/yRVTJGZkDX">pic.twitter.com/yRVTJGZkDX</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1000912579336835072?ref_src=twsrc%5Etfw">May 28, 2018</a></blockquote>
 
 Petrolina was cool. I had visited the city a few times before, but never experienced actually living there.
 
 It was also cool because I used those two months there to get closer to my sister and my nieces.
 
-[https://twitter.com/lenilsonjr_/status/1003767943816269825](https://twitter.com/lenilsonjr_/status/1003767943816269825)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">*baby niece crying*<br><br>&quot;Hey Google, sing a lullaby&quot;<br><br>*Assistant calms her down singing*<br><br>We truly living in the future</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1003767943816269825?ref_src=twsrc%5Etfw">June 4, 2018</a></blockquote>
 
 It was also around this time that I started realizing that if I really wanted to experience a culture impact, I had to stop bitching around and go international.
 
@@ -189,17 +185,17 @@ Problem? Money.
 
 All my clients paid me in BRL, all my bank accounts were in Brazil. So my first task for the next two months: **internationalize my freelance business.**
 
-[https://twitter.com/lenilsonjr_/status/1004321937202581505](https://twitter.com/lenilsonjr_/status/1004321937202581505)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">USD/BRL rate is giving me incentive to price my stuff in american dollars</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1004321937202581505?ref_src=twsrc%5Etfw">June 6, 2018</a></blockquote>
 
-[https://twitter.com/lenilsonjr_/status/1004832869817217024](https://twitter.com/lenilsonjr_/status/1004832869817217024)
+<blockquote class="twitter-tweet"><p lang="nl" dir="ltr">We. Got. Rekt.<a href="https://t.co/by5RPMgQcS">https://t.co/by5RPMgQcS</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1004832869817217024?ref_src=twsrc%5Etfw">June 7, 2018</a></blockquote>
 
 I started working harder on contracts and side-projects, building up a cash reserve I knew I was going to need.
 
-[https://twitter.com/lenilsonjr_/status/1005192984495841282](https://twitter.com/lenilsonjr_/status/1005192984495841282)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sat for five hours straight to code and this is the result. My brain has now stopped working <a href="https://t.co/TdMe7OxE7g">pic.twitter.com/TdMe7OxE7g</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1005192984495841282?ref_src=twsrc%5Etfw">June 8, 2018</a></blockquote>
 
 As I saw money coming in and products coming out, my confidence started growing. For the first time in years, I felt I was capable of accomplishing anything.
 
-[https://twitter.com/lenilsonjr_/status/1009878124996251649](https://twitter.com/lenilsonjr_/status/1009878124996251649)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just keep the momentum going<br><br>Improve something minor, change the look of something, call to catch up with a customer<br><br>But don&#39;t let the momentum die</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1009878124996251649?ref_src=twsrc%5Etfw">June 21, 2018</a></blockquote>
 
 WIP was especially important here. The feedback loops there, and the feeling of always having friends on my pocket everywhere I go was awesome. We even watched the World Cup together using Telegram.
 
@@ -219,13 +215,13 @@ And when I say that WIP changed my life, I'm not lying. This realization that wi
 
 I calculated my costs and decided that I would no longer work for less than $25 per hour. This basically meant I had to totally replace my freelance clients, and simply give up the idea of working to any local company.
 
-[https://twitter.com/lenilsonjr_/status/1024015288990359552](https://twitter.com/lenilsonjr_/status/1024015288990359552)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">.<a href="https://twitter.com/metamas_?ref_src=twsrc%5Etfw">@metamas_</a> wrote an awesome post about contracting rates <a href="https://t.co/znIExPeCE3">https://t.co/znIExPeCE3</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1024015288990359552?ref_src=twsrc%5Etfw">July 30, 2018</a></blockquote>
 
 I did find some clients who would pay my rate in São Paulo, Curitiba, etc. So I kept those.
 
 I pinned this Tweet in my profile, updated my website, reached out to a few friends, and in a few weeks international leads started coming in.
 
-[https://twitter.com/lenilsonjr_/status/1015347151403175936](https://twitter.com/lenilsonjr_/status/1015347151403175936)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">👀 Looking to get dev stuff done? Hire me!<br><br>👨‍💻 Web development<br>📝 WordPress theme development &amp; consulting<br>💎 Ruby On Rails consulting<br><br>👇 DM me and let&#39;s see how I can help you 😄<a href="https://t.co/jTxr2qc6V3">https://t.co/jTxr2qc6V3</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1015347151403175936?ref_src=twsrc%5Etfw">July 6, 2018</a></blockquote>
 
 This basically annihilated any belief that money was a problem to travel the world. The problem was that I was building my castle in the wrong place. This simple idea of arbitrage changed everything.
 
@@ -237,7 +233,7 @@ I got this done by September, when I landed a flexible position as a contractor 
 
 On the first week I knew we were a match. The team is full of makers, entrepreneurs, and digital nomads. We really attract what we emanate.
 
-[https://twitter.com/lenilsonjr_/status/1038027073166749697](https://twitter.com/lenilsonjr_/status/1038027073166749697)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Gratitude is the most powerful shit ever</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1038027073166749697?ref_src=twsrc%5Etfw">September 7, 2018</a></blockquote>
 
 On October I turned 18. That didn't really change anything for me, since I was already legally emancipated since age 16. Still, it was a reminder that lifes goes faster than you expect.
 
@@ -245,7 +241,7 @@ The cost of internationalizing my freelance biz was that I was no longer working
 
 So by the end of October I started to look out for stuff to ship.
 
-[https://twitter.com/lenilsonjr_/status/1055944677327806465](https://twitter.com/lenilsonjr_/status/1055944677327806465)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🤓 The reason I&#39;m playing the data scientist is because I&#39;m shipping 🛠 this little tool here 👇 <a href="https://t.co/oyVbZon0fi">pic.twitter.com/oyVbZon0fi</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1055944677327806465?ref_src=twsrc%5Etfw">October 26, 2018</a></blockquote>
 
 It was frustrating, I didn't actually ship anything. Momentum for my side-projects was totally gone.
 
@@ -259,15 +255,15 @@ We're on the verge of launching a product in the Brazilian market, I hope to tal
 
 By December I was getting into the longest flight of my life (so far). GRU-MAD.
 
-[https://twitter.com/lenilsonjr_/status/1070295463126028289](https://twitter.com/lenilsonjr_/status/1070295463126028289)
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr">👋🇪🇸</p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1070295463126028289?ref_src=twsrc%5Etfw">December 5, 2018</a></blockquote>
 
 In madrid I met [Javi](https://twitter.com/rameerez) IRL!
 
-[https://twitter.com/wip/status/1071773424215826433](https://twitter.com/wip/status/1071773424215826433)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🇪🇸 Madrid Meetup, December 2018.<br><br>📸 <a href="https://t.co/EZqXceBAQb">https://t.co/EZqXceBAQb</a> via <a href="https://t.co/rrxSaTyXXd">https://t.co/rrxSaTyXXd</a> <a href="https://t.co/nfkqYs7Sxu">pic.twitter.com/nfkqYs7Sxu</a></p>&mdash; 🚧 WIP (@wip) <a href="https://twitter.com/wip/status/1071773424215826433?ref_src=twsrc%5Etfw">December 9, 2018</a></blockquote>
 
 In Portugal I finally met [@gvrizzo](https://twitter.com/gvrizzo) IRL, and even did an interview about my story:
 
-[https://twitter.com/lenilsonjr_/status/1074244634325516288](https://twitter.com/lenilsonjr_/status/1074244634325516288)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yesterday I did one of the most fun things I’ve ever done: an interview 👨‍💻🎤 <a href="https://t.co/4eBBR12Vvm">pic.twitter.com/4eBBR12Vvm</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1074244634325516288?ref_src=twsrc%5Etfw">December 16, 2018</a></blockquote>
 
 And now I'm in Bucharest, writing this one day before 2019 starts.
 
@@ -275,4 +271,4 @@ Surely, when this year started I had no idea whatsoever of the ride I was going 
 
 Bring it on, 2019.
 
-[https://twitter.com/lenilsonjr_/status/1078622944924966913](https://twitter.com/lenilsonjr_/status/1078622944924966913)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you for all the blessings, 2018 🙏 <a href="https://t.co/9vvR092EcI">https://t.co/9vvR092EcI</a></p>&mdash; Lenilson Dos Santos 🚀 (@lenilsonjr_) <a href="https://twitter.com/lenilsonjr_/status/1078622944924966913?ref_src=twsrc%5Etfw">December 28, 2018</a></blockquote>
