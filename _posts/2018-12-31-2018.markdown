@@ -1,0 +1,278 @@
+---
+layout: post
+title:  "My 2018 was crazy. Here's my year in tweets"
+date:   2018-12-31 08:00:00 +0200
+---
+
+*I'm writing this inspired by [this Pieter Levels post](https://levels.io/love-anxiety-and-startups/) and this [Pat Walls article](https://patwalls.co/the-best-year-of-my-life-in-35-tweets).*
+
+I can totally say 2018 was the best year of my life so far. Of course, that doesn't count for much since I'm just 18, but using a parallel of how most of my friends are living (not to compare myself, but just as a pure exercise of gratitude), I'm doing pretty fine.
+
+My year didn't start good.
+
+It started out in Petrolina, Brazil, drunk and in a family party I didn't want to be in.
+
+Looking from the outside, it would look like I didn't have much to complain about.
+
+I had a pretty stable job and was slowly decorating my place in Recife.
+
+However, I was miserable. Nothing was happening in my life. Everyday looked exactly the same. Same places, same people, same conversations, same everything.
+
+My hobby? Crypto trading (as everyone at the time, I believe.)
+
+[https://twitter.com/lenilsonjr_/status/948211721004617728](https://twitter.com/lenilsonjr_/status/948211721004617728)
+
+Man, I was horrible at trading.
+
+I lost almost everything that I "invested" in crypto this year. But I kept doing it, because I needed some sort of risk in my life.
+
+At that point I had zero risk going on. I had a fixed salary, fixed rent, fixed groceries, fixed routine. Everything was in its place. And as someone who had quit high school a year before to do startups, I was getting crazy this way.
+
+But that was about to change. Radically.
+
+It was in January that I met a guy on Twitter named [Joshua Voydik](https://twitter.com/joshvoydik/). Joshua led me to another guy on Twitter named [Pieter Levels](https://twitter.com/levelsio). Pieter led me to a Telegram community named [WIP](https://wip.chat). And WIP led me to a french maker named [Leo Baecker](https://twitter.com/sinequanonh).
+
+From this point on, this ignited the biggest mindset change I ever had about money, traveling, startups and friends.
+
+But it started small.
+
+I became Leo's [HyperPing](https://hyperping.io/) first customer (crazy to think that this probably ignited a series of events in his life too), and he convinced me to pay for a WIP membership.
+
+[https://twitter.com/lenilsonjr_/status/950748320816910338](https://twitter.com/lenilsonjr_/status/950748320816910338)
+
+Before 2018, my entire reality was the reality of most tech workers in Brazil: bullshit paychecks, bullshit startups, long commutes, bosses who clearly needed psychiatric help, and an overall stressful life.
+
+And then I met these guys, from a total different dimension, who made money from their own stuff, full-time or part-time, some of them were at home, some of them were traveling the world. WIP changed my life.
+
+From that point, all I wanted to do was to escape 9-5 and build my own products. I had a purpose now besides working five days a week to get drunk on the weekends.
+
+While still in Petrolina, and with only a 3G connection, I started shipping my first side-project after WIP: ScreenMug.
+
+[https://twitter.com/lenilsonjr_/status/954865339619307520](https://twitter.com/lenilsonjr_/status/954865339619307520)
+
+The language was Portuguese, and the idea was that you could order a mug with any image on it.
+
+I didn't really care if it was going to work out or not (maybe I cared a bit). I knew I needed to create momentum before anything else.
+
+So I launched it. It of course didn't make any sales, but I shipped the product. And that was enough to keep me going.
+
+[https://twitter.com/lenilsonjr_/status/955543026717417472](https://twitter.com/lenilsonjr_/status/955543026717417472)
+
+That launch was especially important to me, because in December 2017 I had put a small side-project out there, a simple crypto-portfolio tracker, and the only feedback I got from the outside world was this:
+
+[https://twitter.com/lenilsonjr_/status/951397778030301184](https://twitter.com/lenilsonjr_/status/951397778030301184)
+
+Yikes.
+
+ScreenMug was also important because it launched just a few days after I had a incredible 10-hour panic attack because of my 9-5. I really thought I was going to die that day. I couldn't stand up, I couldn't control my breath. For ten hours. One full night without any sleep, just panic.
+
+That was my final wake up call: ***leave your job, leave Recife, this path is not what you want***.
+
+To escape reality while I didn't have the courage to leave my job, I started spending most of my days with virtual people.
+
+[https://twitter.com/lenilsonjr_/status/956583511804260353](https://twitter.com/lenilsonjr_/status/956583511804260353)
+
+But I knew my time was coming.
+
+On February, I got a notice from my boss for screaming in the office while this was happening:
+
+[https://twitter.com/elonmusk/status/960992715579125760](https://twitter.com/elonmusk/status/960992715579125760)
+
+Falcon Heavy launch (a literal launch, so to say) totally blew out my mind. ***Damn, big things are really possible.***
+
+I would talk everyday with my friend & coworker [Everton](https://www.instagram.com/engtom_/) about how what I really wanted was to leave my crappy PHP job and do my own thing. And everytime he told me to "*just do it, because you're young"*.
+
+And he was right. There was nothing stopping me besides the idea that I had something to lose. I had nothing to lose.
+
+The corporate world creates a kind of fear in you that makes you emotionally dependent on companies. They make you think that you have something to lose: money, reputation, status.
+
+The truth is that I could do pretty fine on my own, but my confidence was so low after 2017 that I didn't really see that.
+
+Before March I took a quick trip to my hometown to see some friends. They had just rented an apartment in a upscale building in the city, and were planning to turn it into a "code house".
+
+So an idea popped up in my mind: *I don't really know what I want to do with my life (besides the fact that I wanna be location-independent), but I do know what I DON'T want (which is to stay in my job), so I might just move in with those guys and see what happens.*
+
+And that's what I did.
+
+On March 1 I gave a 30-day notice to my boss.
+
+[https://twitter.com/lenilsonjr_/status/969035136284192768](https://twitter.com/lenilsonjr_/status/969035136284192768)
+
+March was a strange month. I was still afraid of leaving my job, I was still afraid of doing my own thing, but I took the first step, and I just needed to play along.
+
+I decided to go full minimalist, and trashed a lot of my stuff before leaving Recife.
+
+[https://twitter.com/lenilsonjr_/status/972915006554755072](https://twitter.com/lenilsonjr_/status/972915006554755072)
+
+It was also in March that I bought a MacBook, one of my best decisions in the year.
+
+[https://twitter.com/lenilsonjr_/status/976056453483155456](https://twitter.com/lenilsonjr_/status/976056453483155456)
+
+I also discovered that I love working from coffee shops.
+
+[https://twitter.com/lenilsonjr_/status/977596810964455424](https://twitter.com/lenilsonjr_/status/977596810964455424)
+
+By the end of March, there I was. Excited with something for the first time in months.
+
+Still, I had the same level of fear as before. It was no coincidence that I was moving back to my hometown. Yes, it was scary to leave a life I've been building for almost a year, so I needed a safety net, and being in my hometown, near people I knew, and near my parents, gave me the security I needed.
+
+[https://twitter.com/lenilsonjr_/status/979116958900740096](https://twitter.com/lenilsonjr_/status/979116958900740096)
+
+On this Tweet, [Javi](https://twitter.com/rameerez) gave me the best advice I could ever receive at the moment: **figure out stuff as you go**.
+
+[https://twitter.com/rameerez/status/979151060970467328](https://twitter.com/rameerez/status/979151060970467328)
+
+I left Recife in a total indie maker mentality. I didn't want a 9-5 job again, ever, and I wasn't excited to get back on freelancing any time soon.
+
+I had a shot. A place to stay, a few weeks of runaway and a laptop. And that was enough for me to try my chances and see if I could ship a profitable product.
+
+One of the very first things I did when I moved in with [Rannyeri](https://rannyeribaptist.github.io/) and [Luan](https://idlua.me/) (my new flatmates) was to turn my wardrobe grey:
+
+ 
+
+[https://twitter.com/lenilsonjr_/status/980799858276782080](https://twitter.com/lenilsonjr_/status/980799858276782080)
+
+*I still have the same 10 t-shirts btw.*
+
+The life in the apartment was exactly as I imagined. I wasn't paying a cent of rent, just sleeping on a couch and sharing pizzas with my friends.
+
+[https://twitter.com/lenilsonjr_/status/980996073476026368](https://twitter.com/lenilsonjr_/status/980996073476026368)
+
+Life there felt good for the first time in months.
+
+I couldn't escape freelance tho, my fear of running out of money still existed (and was quite real), so my days were a mix of doing my own stuff and doing stuff for other people.
+
+[https://twitter.com/lenilsonjr_/status/981872188016951297](https://twitter.com/lenilsonjr_/status/981872188016951297)
+
+I spent a total of one month couchsurfing in their apartment. Working on [chamados.io](https://chamados.io) and a few contracts. By the start of May I was sleeping on my old bed at my parents.
+
+But the truth was that my hometown was boring af. At least in that moment of my life. I wanted to be anywhere in the world but there.
+
+I was scared of being trapped again.
+
+[https://twitter.com/lenilsonjr_/status/991149693882204160](https://twitter.com/lenilsonjr_/status/991149693882204160)
+
+So I decided to go to a tech conference in Salvador, with a few friends. A fairly short trip to renew my energies.
+
+At this point my entire life could fit inside two backpacks, and I could work from anywhere. Still, I had a strange impostor syndrome that didn't really let me call myself "a nomad", because I didn't even have a passport yet or because I wasn't in Bali like all the cool kids.
+
+Salvador got the job done. This 4-day trip was enough to give me a taste that there was LOTS of places to see in the world. I felt totally renewed, and I definitely didn't want to stay home.
+
+ 
+
+[https://twitter.com/lenilsonjr_/status/997082501477642240](https://twitter.com/lenilsonjr_/status/997082501477642240)
+
+But I still had plenty of problems to take care before really hitting the road.
+
+1. I wasn't making enough money to sustain a full-time travel lifestyle (or so I thought, one of the things I realized by traveling more is that traveling can be as cheap or as expensive as you want)
+2. I didn't have a passport, so I was limited to traveling in Brazil. And traveling in Brazil has two problems: flights are crazy expensive and internet access mostly sucks.
+
+It didn't matter. I just couldn't stay in my hometown (see how most of the time I was just running away from some demon of my own creation? That's how anxiety and comparing yourself to others feels like.)
+
+So I bought the cheapest one-way ticket I could find, $60 to fly to... Petrolina! The city where my year started. And also the city where my sister lives, which meant I could couchsurf again and avoid spending my runaway.
+
+I spent two months there, from June to the end of July. I was slowly building confidence to travel to other places.
+
+[https://twitter.com/lenilsonjr_/status/1001299371424649217](https://twitter.com/lenilsonjr_/status/1001299371424649217)
+
+[https://twitter.com/lenilsonjr_/status/1000912579336835072](https://twitter.com/lenilsonjr_/status/1000912579336835072)
+
+Petrolina was cool. I had visited the city a few times before, but never experienced actually living there.
+
+It was also cool because I used those two months there to get closer to my sister and my nieces.
+
+[https://twitter.com/lenilsonjr_/status/1003767943816269825](https://twitter.com/lenilsonjr_/status/1003767943816269825)
+
+It was also around this time that I started realizing that if I really wanted to experience a culture impact, I had to stop bitching around and go international.
+
+Problem? Money.
+
+All my clients paid me in BRL, all my bank accounts were in Brazil. So my first task for the next two months: **internationalize my freelance business.**
+
+[https://twitter.com/lenilsonjr_/status/1004321937202581505](https://twitter.com/lenilsonjr_/status/1004321937202581505)
+
+[https://twitter.com/lenilsonjr_/status/1004832869817217024](https://twitter.com/lenilsonjr_/status/1004832869817217024)
+
+I started working harder on contracts and side-projects, building up a cash reserve I knew I was going to need.
+
+[https://twitter.com/lenilsonjr_/status/1005192984495841282](https://twitter.com/lenilsonjr_/status/1005192984495841282)
+
+As I saw money coming in and products coming out, my confidence started growing. For the first time in years, I felt I was capable of accomplishing anything.
+
+[https://twitter.com/lenilsonjr_/status/1009878124996251649](https://twitter.com/lenilsonjr_/status/1009878124996251649)
+
+WIP was especially important here. The feedback loops there, and the feeling of always having friends on my pocket everywhere I go was awesome. We even watched the World Cup together using Telegram.
+
+Around that time I started asking other freelancers in WIP about how I could improve my lead generation, get more contracts and how to better price my hourly rate.
+
+And then another mind-blow realization happened: **I have been heavily underpaid my entire life!** 
+
+No, really. Do you know how much I made in that job in Recife that I hated? R$2.000, or about $500, a month, to work 8 hours per day. That was about $3 PER HOUR!!!!
+
+Was I underpaid? Depends on the referential. For my Telegram friends, I was a slave. For my Recife friends, I was a yuppie.
+
+I worked in an office with about 15 other people day to day, and 99% of them made the same amount, sometimes less. So from my referential, considering I was 17 and they were 25~35, I was rich af. Lots of my coworkers had masters and one of them was even accepted into a PhD program. Still, they were making $500 a month.
+
+My referential was the problem.
+
+And when I say that WIP changed my life, I'm not lying. This realization that with the same skillset I had I could make about 40x more just by working to overseas clients changed everything.
+
+I calculated my costs and decided that I would no longer work for less than $25 per hour. This basically meant I had to totally replace my freelance clients, and simply give up the idea of working to any local company.
+
+[https://twitter.com/lenilsonjr_/status/1024015288990359552](https://twitter.com/lenilsonjr_/status/1024015288990359552)
+
+I did find some clients who would pay my rate in São Paulo, Curitiba, etc. So I kept those.
+
+I pinned this Tweet in my profile, updated my website, reached out to a few friends, and in a few weeks international leads started coming in.
+
+[https://twitter.com/lenilsonjr_/status/1015347151403175936](https://twitter.com/lenilsonjr_/status/1015347151403175936)
+
+This basically annihilated any belief that money was a problem to travel the world. The problem was that I was building my castle in the wrong place. This simple idea of arbitrage changed everything.
+
+So I got a passport in Petrolina, and took the leap: bought a one-way ticket to Madrid to travel together with [Everton](https://www.instagram.com/engtom_/) and [Allan](https://www.instagram.com/allancarlos999/) (both former coworkers who also decided to go nomad), on Dec 4. Why the huge space between booking the ticket and actually flying out? I still had to build income and get clients paying me in a stronger currency.
+
+By the end of July I decided to fly back to my hometown with a clear goal in my mind: **use these four months before my trip to totally internationalize my income.**
+
+I got this done by September, when I landed a flexible position as a contractor in a remote-first software studio, paying 10x~20x more than my position in Recife.
+
+On the first week I knew we were a match. The team is full of makers, entrepreneurs, and digital nomads. We really attract what we emanate.
+
+[https://twitter.com/lenilsonjr_/status/1038027073166749697](https://twitter.com/lenilsonjr_/status/1038027073166749697)
+
+On October I turned 18. That didn't really change anything for me, since I was already legally emancipated since age 16. Still, it was a reminder that lifes goes faster than you expect.
+
+The cost of internationalizing my freelance biz was that I was no longer working on my own projects. And I was kinda freaking out a bit. My ideal lifestyle is a balance between doing my own stuff and freelancing.
+
+So by the end of October I started to look out for stuff to ship.
+
+[https://twitter.com/lenilsonjr_/status/1055944677327806465](https://twitter.com/lenilsonjr_/status/1055944677327806465)
+
+It was frustrating, I didn't actually ship anything. Momentum for my side-projects was totally gone.
+
+So I decided to try the co-founder thing once again, and by November I joined [Expire](https://expire.com.br/) as a co-founder, with two other nomad friends.
+
+The startup was actually founded six months before I joined it, but [Heitor](https://www.instagram.com/halvescontato/) and [Maria](https://www.instagram.com/maria.j.contato/) are biz & marketing people, so after six months they had an audience built for the product, but no real product shipped.
+
+And that's why I accepted working with them. Because we complement each other. Being a solo founder works depending on how mature you are, and I've come to the realization that my biz/mkt personality still needs a lot of work. And is there any better way to learn something than by closely watching people you admire doing it?
+
+We're on the verge of launching a product in the Brazilian market, I hope to talk more about Expire here on the weeks to come.
+
+By December I was getting into the longest flight of my life (so far). GRU-MAD.
+
+[https://twitter.com/lenilsonjr_/status/1070295463126028289](https://twitter.com/lenilsonjr_/status/1070295463126028289)
+
+In madrid I met [Javi](https://twitter.com/rameerez) IRL!
+
+[https://twitter.com/wip/status/1071773424215826433](https://twitter.com/wip/status/1071773424215826433)
+
+In Portugal I finally met [@gvrizzo](https://twitter.com/gvrizzo) IRL, and even did an interview about my story:
+
+[https://twitter.com/lenilsonjr_/status/1074244634325516288](https://twitter.com/lenilsonjr_/status/1074244634325516288)
+
+And now I'm in Bucharest, writing this one day before 2019 starts.
+
+Surely, when this year started I had no idea whatsoever of the ride I was going for, and I can't exhaust how grateful I am to everyone that was a part of this crazy ride. I love you all.
+
+Bring it on, 2019.
+
+[https://twitter.com/lenilsonjr_/status/1078622944924966913](https://twitter.com/lenilsonjr_/status/1078622944924966913)
