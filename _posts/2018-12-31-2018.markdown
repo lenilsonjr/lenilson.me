@@ -4,8 +4,6 @@ title:  "My 2018 was crazy. Here's my year in tweets"
 date:   2018-12-31 08:00:00 +0200
 cover: "cover.png"
 ---
-*I'm writing this inspired by [this Pieter Levels post](https://levels.io/love-anxiety-and-startups/) and this [Pat Walls article](https://patwalls.co/the-best-year-of-my-life-in-35-tweets).*
-
 I can totally say 2018 was the best year of my life so far. Of course, that doesn't count for much since I'm just 18, but using a parallel of how most of my friends are living (not to compare myself, but just as a pure exercise of gratitude), I'm doing pretty fine.
 
 My year didn't start good.
