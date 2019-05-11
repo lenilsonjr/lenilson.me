@@ -1,6 +1,6 @@
 ---
 layout: post
-title: So you're wondering if I'm a trustfund kid. 
+title: So you're wondering if I'm a trustfund kid
 permalink: /money/
 ---
 
