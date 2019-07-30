@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://lenilson.me",
+    "contentApiKey": "ef983674b1f93262c40e8a47e1"
+  },
+  "production": {
+    "apiUrl": "https://lenilson.me",
+    "contentApiKey": "ef983674b1f93262c40e8a47e1"
+  }
+}

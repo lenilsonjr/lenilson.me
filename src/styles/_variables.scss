@@ -1,0 +1,51 @@
+$black:        hsl(0, 0%, 4%);
+$black-bis:    hsl(0, 0%, 7%);
+$black-ter:    hsl(0, 0%, 14%);
+
+$grey-darker:  hsl(195, 15%, 15%);
+$grey-dark:    hsl(0, 0%, 29%);
+$grey:         hsl(0, 0%, 48%);
+$grey-light:   hsl(0, 0%, 71%);
+$grey-lighter: hsl(0, 0%, 86%);
+
+$white-ter:    hsl(0, 0%, 96%);
+$white-bis:    hsl(0, 0%, 98%);
+$white:        hsl(0, 0%, 100%);
+
+$orange:       #EE5A24;
+$yellow:       #ffcf56;
+$green:        #17b96d;
+$turquoise:    #006266;
+$cyan:         #adfcf9;
+$blue:         #0152cc;
+$purple:       #9980FA;
+$red:          #721817;
+$black:        #0d1b1e;
+
+$info:         $blue;
+
+$primary:      $info;
+$secondary:    $yellow;
+$accent:       #4b644a; //$yellow;
+
+//Radius
+$control-radius: 25px;
+$radius-large: 7px;
+
+// Font
+$family-sans-serif: 'Inconsolata', monospace;
+
+// Navbar
+$navbar-height: 5.5rem;
+$navbar-item-img-max-height: 2.3rem;
+
+// Sizes
+$size-1: 3.5rem;
+
+// Image dimensions
+$dimensions: 16 24 32 48 64 96 128 220;
+
+// Bulma steps
+$steps-marker-default-border: .2em solid $white;
+$steps-completed-color: $white;
+$steps-active-color: $white;
