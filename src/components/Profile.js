@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { Section, Container, Hero, Heading, Tile, Image } from 'react-bulma-components';
+import { Section, Container, Hero, Heading, Tile, Image, Columns, Media, Content } from 'react-bulma-components';
 
 import profile from '../images/me.jpg';
 
@@ -123,81 +123,108 @@ export default ({isHome}) =>  {
     }))
   }, []);
 
-  return (
-    <Hero color="dark" size="fullheight">
-      <Hero.Body>
-        <ProfileContainer>
-          <Tile kind="ancestor">
-            <Tile size={12} vertical>
-              <Tile>
-                <Tile kind="parent" vertical>
-                  <Tile renderAs="article" kind="child" color="primary" align="center">
-                    <ProfileImage size="220x220" alt="Lenilson" src={profile} />
-                    <p className="title">👋 Hello, I'm Lenilson</p>
-                    <p className="subtitle">
-                      <SocialIcons>
-                        <a href="https://github.com/lenilsonjr" target="_blank" title="coding">👨‍💻</a>
-                        <a href="https://www.goodreads.com/lenilsonjr" target="_blank" title="reading">📚</a>
-                        <a href="https://wip.chat/@lenilsonjr" target="_blank" title="shipping">🚧</a>
-                        <a href="https://www.last.fm/user/lenilsonjr" target="_blank" title="listening">🎶</a>
-                        <a href="https://twitter.com/lenilsonjr_" target="_blank" title="philosophizing">🤔</a>
-                        <a href="https://nomadlist.com/@lenilsonjr" target="_blank" title="traveling">✈️</a>
-                      </SocialIcons>
-                    </p>
+  if ( isHome ) {
+    return (
+      <Hero color="dark" size="fullheight">
+        <Hero.Body>
+          <ProfileContainer>
+            <Tile kind="ancestor">
+              <Tile size={12} vertical>
+                <Tile>
+                  <Tile kind="parent" vertical>
+                    <Tile renderAs="article" kind="child" color="primary" align="center">
+                      <ProfileImage size="220x220" alt="Lenilson" src={profile} />
+                      <p className="title">👋 Hello, I'm Lenilson</p>
+                      <p className="subtitle">
+                        <SocialIcons>
+                          <a href="https://github.com/lenilsonjr" target="_blank" title="coding">👨‍💻</a>
+                          <a href="https://www.goodreads.com/lenilsonjr" target="_blank" title="reading">📚</a>
+                          <a href="https://wip.chat/@lenilsonjr" target="_blank" title="shipping">🚧</a>
+                          <a href="https://www.last.fm/user/lenilsonjr" target="_blank" title="listening">🎶</a>
+                          <a href="https://twitter.com/lenilsonjr_" target="_blank" title="philosophizing">🤔</a>
+                          <a href="https://nomadlist.com/@lenilsonjr" target="_blank" title="traveling">✈️</a>
+                        </SocialIcons>
+                      </p>
+                    </Tile>
+                    <Tile renderAs="article" kind="child" notification color="info" align="center">
+                      <Heading subtitle renderAs="p">
+                        👉 I'm a freeelancer web developer 👨‍💻, usually working with Ruby and JavaScript. I live out of a backpack and usually travel around the world to find nice food and fast WiFi
+                      </Heading>
+                    </Tile>
                   </Tile>
-                  <Tile renderAs="article" kind="child" notification color="info" align="center">
-                    <Heading subtitle renderAs="p">
-                      👉 I'm a freeelancer web developer 👨‍💻, usually working with Ruby and JavaScript. I live out of a backpack and usually travel around the world to find nice food and fast WiFi
-                    </Heading>
+                  <Tile kind="parent">
+                    <Tile renderAs={UpToArticle} kind="child" notification color="grey-dark" className="has-background-grey-dark">
+                      <div>
+                        <Heading>🤔 What I'm up to lately</Heading>
+                        <ul>
+                          <li>
+                            📚
+                            Reading <a target="_blank" href="https://www.goodreads.com/user/show/73188841-lenilson-jr">{reading}</a>
+                          </li>
+                          <li>
+                            🎶
+                            Listening a lot to <a target="_blank" href="https://www.last.fm/user/lenilsonjr">{listening}</a>
+                          </li>
+                          <li>
+                            ✈️
+                            In Europe for Summer! 
+                          </li>
+                          <li>
+                            👔
+                            Bootstraping <a target="_blank" href="http://expire.com.br">Expire</a> with Heitor and Maria
+                          </li>
+                          <li>
+                            👨‍💻
+                            Contracting
+                          </li>
+                        </ul>
+                      </div>
+                    </Tile>
                   </Tile>
                 </Tile>
                 <Tile kind="parent">
-                  <Tile renderAs={UpToArticle} kind="child" notification color="grey-dark" className="has-background-grey-dark">
-                    <div>
-                      <Heading>🤔 What I'm up to lately</Heading>
-                      <ul>
-                        <li>
-                          📚
-                          Reading <a target="_blank" href="https://www.goodreads.com/user/show/73188841-lenilson-jr">{reading}</a>
-                        </li>
-                        <li>
-                          🎶
-                          Listening a lot to <a target="_blank" href="https://www.last.fm/user/lenilsonjr">{listening}</a>
-                        </li>
-                        <li>
-                          ✈️
-                          In Europe for Summer! 
-                        </li>
-                        <li>
-                          👔
-                          Bootstraping <a target="_blank" href="http://expire.com.br">Expire</a> with Heitor and Maria
-                        </li>
-                        <li>
-                          👨‍💻
-                          Contracting
-                        </li>
-                      </ul>
-                    </div>
+                  <LocationTile renderAs="article" kind="child" notification color="link" backgroundImage={locationBackground}>
+                    <Heading>📌 Currently in {currentLocation}</Heading>
+                    <Heading subtitle>🛫 {nextLocation}</Heading>
+                  </LocationTile>
+                </Tile>
+                <Tile kind="parent">
+                  <Tile renderAs="article" kind="child" align="center">
+                    <ScrollDown animate />
                   </Tile>
                 </Tile>
               </Tile>
-              <Tile kind="parent">
-                <LocationTile renderAs="article" kind="child" notification color="link" backgroundImage={locationBackground}>
-                  <Heading>📌 Currently in {currentLocation}</Heading>
-                  <Heading subtitle>🛫 {nextLocation}</Heading>
-                </LocationTile>
-              </Tile>
-              <Tile kind="parent">
-                <Tile renderAs="article" kind="child" align="center">
-                  <ScrollDown animate />
-                </Tile>
-              </Tile>
             </Tile>
-          </Tile>
 
-        </ProfileContainer>
-      </Hero.Body>
-    </Hero>
-  )
-
+          </ProfileContainer>
+        </Hero.Body>
+      </Hero>
+    )
+  } else {
+    return (
+      <Hero color="dark">
+        <Hero.Body>
+          <ProfileContainer>
+            <Columns>
+              <Columns.Column size="half" offset="one-quarter">
+                <Media>
+                  <Media.Item renderAs="figure" position="left">
+                    <ProfileImage renderAs="p" size={128} alt="Lenilson" src={profile} />
+                  </Media.Item>
+                  <Media.Item>
+                    <Content>
+                      <Heading size={3}>Hello, I'm Lenilson 👋</Heading>
+                      <Heading subtitle size={6}>
+                        I'm a freeelancer developer and maker currently in {currentLocation}. I live out of a backpack and usually travel around the world to find nice food and fast WiFi. You can get to know more about me <a href="/">here</a>. 🚀
+                      </Heading>
+                    </Content>
+                  </Media.Item>
+                </Media>
+              </Columns.Column>
+            </Columns>
+          </ProfileContainer>
+        </Hero.Body>
+      </Hero>
+    )
+  }
 }

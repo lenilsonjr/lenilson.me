@@ -25,29 +25,10 @@ const Author = ({ data, location, pageContext }) => {
                 type="profile"
             />
             <Layout>
-                <div className="container">
-                    <header className="author-header">
-                        <div className="author-header-content">
-                            <h1>{author.name}</h1>
-                            {author.bio && <p>{author.bio}</p>}
-                            <div className="author-header-meta">
-                                {author.website && <a className="author-header-item" href={author.website} target="_blank" rel="noopener noreferrer">Website</a>}
-                                {twitterUrl && <a className="author-header-item" href={twitterUrl} target="_blank" rel="noopener noreferrer">Twitter</a>}
-                                {facebookUrl && <a className="author-header-item" href={facebookUrl} target="_blank" rel="noopener noreferrer">Facebook</a>}
-                            </div>
-                        </div>
-                        <div className="author-header-image">
-                            {author.profile_image && <img src={author.profile_image} alt={author.name} />}
-                        </div>
-                    </header>
-                    <section className="post-feed">
-                        {posts.map(({ node }) => (
-                            // The tag below includes the markup for each post - components/common/PostCard.js
-                            <PostCard key={node.id} post={node} />
-                        ))}
-                    </section>
-                    <Pagination pageContext={pageContext} />
-                </div>
+                {posts.map(({ node }) => (
+                    <PostCard key={node.id} post={node} />
+                ))}
+                <Pagination pageContext={pageContext} />
             </Layout>
         </>
     )

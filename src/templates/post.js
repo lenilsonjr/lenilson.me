@@ -2,16 +2,29 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
+import styled from 'styled-components';
 
 import { Layout } from '../components/common'
 import { MetaData } from '../components/common/meta'
 
-/**
-* Single post view (/:slug)
-*
-* This file renders a single post and loads all the content.
-*
-*/
+import { Hero, Container, Heading } from 'react-bulma-components';
+
+const PostHero = styled(Hero)`
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('${props => props.backgroundImage}')
+`;
+
+const PostContainer = styled(Container)`
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 1152px;
+    width: 1152px;
+
+    padding-right: 8rem;
+    padding-left: 8rem;
+
+    font-size: 22px;
+`;
+
 const Post = ({ data, location }) => {
     const post = data.ghostPost
 
@@ -26,23 +39,20 @@ const Post = ({ data, location }) => {
                     <style type="text/css">{`${post.codeinjection_styles}`}</style>
                 </Helmet>
                 <Layout>
-                    <div className="container">
-                        <article className="content">
-                            { post.feature_image ?
-                                <figure className="post-feature-image">
-                                    <img src={ post.feature_image } alt={ post.title } />
-                                </figure> : null }
-                            <section className="post-full-content">
-                                <h1 className="content-title">{post.title}</h1>
-
-                                {/* The main post content */ }
-                                <section
-                                    className="content-body load-external-scripts"
-                                    dangerouslySetInnerHTML={{ __html: post.html }}
-                                />
-                            </section>
-                        </article>
-                    </div>
+                    <PostHero color="dark" size="medium" backgroundImage={post.feature_image}>
+                      <Hero.Body>
+                        <Container align="center">
+                          <Heading size={1}>{post.title}</Heading>
+                          <Heading subtitle>{post.created_at_pretty}</Heading>
+                        </Container>
+                      </Hero.Body>
+                    </PostHero>
+                    <PostContainer>
+                        <section
+                            className="content load-external-scripts"
+                            dangerouslySetInnerHTML={{ __html: post.html }}
+                        />
+                    </PostContainer>
                 </Layout>
             </>
     )
