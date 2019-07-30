@@ -8,7 +8,8 @@ import { readingTime as readingTimeHelper } from '@tryghost/helpers'
 import { Hero, Container, Columns, Heading } from 'react-bulma-components'
 
 const PostHero = styled(Hero)`
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('${props => props.backgroundImage}')
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('${props => props.backgroundImage}') no-repeat center;
+    background-size: cover;
 `;
 
 const PostCard = ({ post }) => {
