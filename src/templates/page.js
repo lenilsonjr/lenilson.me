@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
@@ -35,6 +35,14 @@ const PostContainer = styled(Container)`
 const Page = ({ data, location }) => {
     const page = data.ghostPage
 
+    const ref = useRef(null)
+    useEffect(() => {
+        console.log(ref.current, 'ref')
+        if (ref.current) {
+            window.scrollTo(0, ref.current.offsetTop)
+        }
+    }, [ref])
+
     return (
             <>
                 <MetaData
@@ -46,6 +54,7 @@ const Page = ({ data, location }) => {
                     <style type="text/css">{`${page.codeinjection_styles}`}</style>
                 </Helmet>
                 <Layout>
+                    <span ref={ref} />
                     <PostHero color="dark" size="medium" backgroundImage={page.feature_image}>
                       <Hero.Body>
                         <Container align="center">
