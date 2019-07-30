@@ -1,8 +1,0 @@
-_site
-.sass-cache
-.jekyll-metadata
-log/capistrano.log
-config/deploy/production.rb
-now.env
-now.json
-.DS_STORE
