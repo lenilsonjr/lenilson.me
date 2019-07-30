@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import config from '../utils/siteConfig'
 
 export default ({color, site}) => {
-  
+
+  const [active, setActive] = useState(false);
   const twitterUrl = site.twitter ? `https://twitter.com/${site.twitter.replace(/^@/, ``)}` : null
 
   return(
@@ -13,13 +14,13 @@ export default ({color, site}) => {
           <a className="navbar-item" href="/">
             <strong>🚀 lenilsonjr</strong>
           </a>
-          <span className="navbar-burger burger" data-target="navbarMenu">
+          <span className="navbar-burger burger" data-target="navbarMenu" onClick={() => setActive(!active)}>
             <span></span>
             <span></span>
             <span></span>
           </span>
         </div>
-        <div id="navbarMenu" className="navbar-menu">
+        <div id="navbarMenu" className={`navbar-menu ${active ? 'is-active' : ''}`}>
           <div className="navbar-end">
             <div className="tabs is-right">
               

@@ -13,7 +13,6 @@ const PostHero = styled(Hero)`
 `;
 
 const PostCard = ({ post }) => {
-    console.log(post)
     const url = `/${post.slug}/`
     const readingTime = readingTimeHelper(post)
 
