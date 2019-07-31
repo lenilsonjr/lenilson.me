@@ -17,10 +17,17 @@ const PostContainer = styled(Container)`
     padding-top: 1rem;
     padding-bottom: 1rem;
     max-width: 1152px;
-    width: 1152px;
 
-    padding-right: 8rem;
-    padding-left: 8rem;
+    @media (min-width: 1281px) {
+        width: 1152px;
+        padding-right: 8rem;
+        padding-left: 8rem;
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
 
     font-size: 22px;
 `;
