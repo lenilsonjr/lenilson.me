@@ -30,7 +30,6 @@ const Post = ({ data, location }) => {
 
     const ref = useRef(null)
     useEffect(() => {
-        console.log(ref.current, 'ref')
         if (ref.current) {
             window.scrollTo(0, ref.current.offsetTop)
         }
@@ -52,7 +51,7 @@ const Post = ({ data, location }) => {
                       <Hero.Body>
                         <Container align="center">
                           <Heading size={1}>{post.title}</Heading>
-                          <Heading subtitle>{post.created_at_pretty}</Heading>
+                          <Heading subtitle>{post.published_at_pretty}</Heading>
                         </Container>
                       </Hero.Body>
                     </PostHero>

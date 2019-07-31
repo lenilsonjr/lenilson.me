@@ -25,7 +25,7 @@ const PostCard = ({ post }) => {
                 <Columns.Column size="three-fifths" offset="one-fifth">
                   <Heading size={1}>{post.title}</Heading>
                   <Heading subtitle size={5}>{post.excerpt}</Heading>
-                  <Heading subtitle>{post.created_at_pretty}</Heading>
+                  <Heading subtitle>{post.published_at_pretty}</Heading>
                 </Columns.Column>
               </Columns>
             </Container>

@@ -37,7 +37,6 @@ const Page = ({ data, location }) => {
 
     const ref = useRef(null)
     useEffect(() => {
-        console.log(ref.current, 'ref')
         if (ref.current) {
             window.scrollTo(0, ref.current.offsetTop)
         }
@@ -59,7 +58,6 @@ const Page = ({ data, location }) => {
                       <Hero.Body>
                         <Container align="center">
                           <Heading size={1}>{page.title}</Heading>
-                          <Heading subtitle>{page.created_at_pretty}</Heading>
                         </Container>
                       </Hero.Body>
                     </PostHero>
