@@ -10,7 +10,8 @@ import { MetaData } from '../components/common/meta'
 import { Hero, Container, Heading } from 'react-bulma-components';
 
 const PostHero = styled(Hero)`
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('${props => props.backgroundImage}')
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('${props => props.backgroundImage}') no-repeat center;
+    background-size: cover;
 `;
 
 const PostContainer = styled(Container)`
