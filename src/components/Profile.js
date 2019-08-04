@@ -6,7 +6,7 @@ import profile from '../images/me.jpg';
 
 const ProfileContainer = styled(Container)`
   max-width: 1152px;
-  width: 1152px; 
+  width: 100%;
 `;
 
 const ScrollDown = styled.div`
@@ -98,7 +98,7 @@ const SocialIcons = styled.div`
     font-size: 14px;
     margin-left: 4px;
     margin-right: 4px;
-  } 
+  }
 `;
 
 const LocationTile = styled(Tile)`
@@ -167,7 +167,7 @@ export default ({isHome}) =>  {
                           </li>
                           <li>
                             ✈️
-                            In Europe for Summer! 
+                            In Europe for Summer!
                           </li>
                           <li>
                             👔
