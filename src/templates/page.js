@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import styled from 'styled-components';
 
+import Footer from '../components/Footer'
 import { Layout } from '../components/common'
 import { MetaData } from '../components/common/meta'
 
@@ -68,6 +69,7 @@ const Page = ({ data, location }) => {
                             dangerouslySetInnerHTML={{ __html: page.html }}
                         />
                     </PostContainer>
+                    <Footer />
                 </Layout>
             </>
     )
