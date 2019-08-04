@@ -19,7 +19,7 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "lint": "eslint . --ext .js --cache",
-    "deploy": "rsync -azP --delete ./public/ root@165.22.157.118:/var/www/ghost/system/nginx-root",
+    "deploy": "rsync -azP --delete --exclude './public/now.json' ./public/ root@165.22.157.118:/var/www/ghost/system/nginx-root",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
