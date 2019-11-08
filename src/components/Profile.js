@@ -167,7 +167,7 @@ export default ({isHome}) =>  {
                           </li>
                           <li>
                             ✈️
-                            In Europe for Summer!
+                            Leaving Europe for South America & Asia
                           </li>
                           <li>
                             👔
