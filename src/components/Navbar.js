@@ -52,6 +52,12 @@ export default ({color, site}) => {
                 </span>
                }
 
+              <span className="navbar-item">
+                <a className="button is-white is-outlined" href="https://instagram.com/lenilsonjr" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </span>
+
             </div>
           </div>
         </div>

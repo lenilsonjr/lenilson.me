@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import { ThemeProvider } from 'styled-components'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
@@ -13,19 +14,15 @@ import '../../styles/App.scss'
 import Profile from '../Profile';
 import Navbar from '../Navbar';
 
-/**
-* Main layout component
-*
-* The Layout component wraps around each page and template.
-* It also provides the header, footer as well as the main
-* styles, and meta data for each page.
-*
-*/
+// eslint-disable-next-line import/no-webpack-loader-syntax
+const theme = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!../../styles/_variables.scss');
+
 const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const site = data.allGhostSettings.edges[0].node
 
     return (
-    <>
+    <ThemeProvider theme={theme}>
+        <>
         <Helmet>
           <html lang={site.lang} />
           <style type="text/css">{`${site.codeinjection_styles}`}</style>
@@ -42,8 +39,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             </main>
 
         </div>
-
-    </>
+        </>
+    </ThemeProvider>
     )
 }
 

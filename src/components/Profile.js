@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Section, Container, Hero, Heading, Tile, Image, Columns, Media, Content } from 'react-bulma-components';
+import { darken } from 'polished'
 
 import profile from '../images/me.jpg';
+import expireLogo from '../images/expire.png';
+import matterLogo from '../images/matter.png';
+import mapMarker from '../images/map.png';
 
 const ProfileContainer = styled(Container)`
   max-width: 1152px;
@@ -38,7 +42,7 @@ const ScrollDown = styled.div`
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  color: ${props => props.theme.primary};
+  color: ${props => props.theme.white};
   font : normal 400 20px/1 'Josefin Sans', sans-serif;
   letter-spacing: .1em;
   text-decoration: none;
@@ -55,8 +59,8 @@ const ScrollDown = styled.div`
     width: 24px;
     height: 24px;
     margin-left: -12px;
-    border-left: 5px solid ${props => props.theme.primary};
-    border-bottom: 5px solid ${props => props.theme.primary};
+    border-left: 5px solid ${props => props.theme.white};
+    border-bottom: 5px solid ${props => props.theme.white};
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     ${props => props.animate &&
@@ -75,21 +79,12 @@ const ProfileImage = styled(Image)`
   }
 `;
 
-const UpToArticle = styled.article`
-  text-align: justify!important;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+const ProjectTile = styled(Tile)`
+  background-color: ${props => props.color};
 
-  ul > li {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 5px;
+  &:hover {
+    background: linear-gradient(71deg, ${props => props.color} 0%, ${props => darken(0.1, props.color)} 35%, ${props => darken(0.2, props.color)} 100%);
+    box-shadow: 0 0 0 4px #21292c,0 0 0 7px ${props => props.color};
   }
 `;
 
@@ -102,24 +97,19 @@ const SocialIcons = styled.div`
 `;
 
 const LocationTile = styled(Tile)`
-  background: ${props => props.backgroundImage} center center no-repeat;
+  background-color: ${props => props.theme.red};
 `;
 
 export default ({isHome}) =>  {
 
-  const [currentLocation, setCurrentLocation] = useState();
-  const [nextLocation, setNextLocation] = useState();
-  const [locationBackground, setLocationBackground] = useState();
-  const [reading, setReading] = useState();
-  const [listening, setListening] = useState();
+  const [currentLocation, setCurrentLocation] = useState(null);
+  const [nextLocation, setNextLocation] = useState(null);
 
   useEffect(() => {
-    fetch('/now.json').then(response => response.json().then((json) => {
-      setCurrentLocation(json.location.html);
-      setNextLocation(json.next_location.html);
-      setLocationBackground(json.location.image);
-      setReading(json.reading);
-      setListening(json.listening);
+    fetch('https://nomadlist.com/@lenilsonjr.json').then(response => response.json().then((json) => {
+      const location = json.location;
+      setCurrentLocation(`${location.now.city} ${location.now.country_code.toUpperCase().replace(/./g, char => String.fromCodePoint(char.charCodeAt(0)+127397)) }`);
+      location.next && setNextLocation(`${location.next.city} ${location.next.country_code.toUpperCase().replace(/./g, char => String.fromCodePoint(char.charCodeAt(0)+127397)) }`);
     }))
   }, []);
 
@@ -134,13 +124,10 @@ export default ({isHome}) =>  {
                   <Tile kind="parent" vertical>
                     <Tile renderAs="article" kind="child" color="primary" align="center">
                       <ProfileImage size="220x220" alt="Lenilson" src={profile} />
-                      <p className="title">👋 Hello, I'm Lenilson</p>
+                      <p className="title">👋 Hi, I'm Lenilson</p>
                       <p className="subtitle">
                         <SocialIcons>
                           <a href="https://github.com/lenilsonjr" target="_blank" title="coding">👨‍💻</a>
-                          <a href="https://www.goodreads.com/lenilsonjr" target="_blank" title="reading">📚</a>
-                          <a href="https://wip.chat/@lenilsonjr" target="_blank" title="shipping">🚧</a>
-                          <a href="https://www.last.fm/user/lenilsonjr" target="_blank" title="listening">🎶</a>
                           <a href="https://twitter.com/lenilsonjr_" target="_blank" title="philosophizing">🤔</a>
                           <a href="https://nomadlist.com/@lenilsonjr" target="_blank" title="traveling">✈️</a>
                         </SocialIcons>
@@ -148,45 +135,55 @@ export default ({isHome}) =>  {
                     </Tile>
                     <Tile renderAs="article" kind="child" notification color="info" align="center">
                       <Heading subtitle renderAs="p">
-                        👉 I'm a freeelancer web developer 👨‍💻, usually working with Ruby and JavaScript. I live out of a backpack and usually travel around the world to find nice food and fast WiFi
+                        👉 I'm a freeelancer web developer 👨‍💻, working with Ruby and JavaScript. I live out of a suitcase and travel around the world to find nice food and fast WiFi
                       </Heading>
                     </Tile>
                   </Tile>
-                  <Tile kind="parent">
-                    <Tile renderAs={UpToArticle} kind="child" notification color="grey-dark" className="has-background-grey-dark">
-                      <div>
-                        <Heading>🤔 What I'm up to lately</Heading>
-                        <ul>
-                          <li>
-                            📚
-                            Reading <a target="_blank" href="https://www.goodreads.com/user/show/73188841-lenilson-jr">{reading}</a>
-                          </li>
-                          <li>
-                            🎶
-                            Listening a lot to <a target="_blank" href="https://www.last.fm/user/lenilsonjr">{listening}</a>
-                          </li>
-                          <li>
-                            ✈️
-                            Leaving Europe for South America & Asia
-                          </li>
-                          <li>
-                            👔
-                            Bootstraping <a target="_blank" href="http://expire.com.br">Expire</a> with Heitor and Maria
-                          </li>
-                          <li>
-                            👨‍💻
-                            Contracting
-                          </li>
-                        </ul>
+                  <Tile kind="parent" vertical>
+
+                    <ProjectTile renderAs="a" kind="child" notification color="#5da099" href="https://expire.com.br/" target="_blank">
+                      <div className="columns is-vcentered">
+                        <div className="column is-narrow">
+                          <figure className="image is-96x96">
+                            <img src={expireLogo} />
+                          </figure>
+                        </div>
+                        <div className="column">
+                          <h1 className="title">Expire Psicologia 🇧🇷</h1>
+                          <h3 className="subtitle">Co-founder & CTO</h3>
+                        </div>
                       </div>
-                    </Tile>
+                    </ProjectTile>
+
+                    <ProjectTile renderAs="a" kind="child" notification color="#000000" href="https://matterproductstudio.com/" target="_blank">
+                      <div className="columns is-vcentered">
+                        <div className="column is-narrow">
+                          <figure className="image is-96x96">
+                            <img src={matterLogo} />
+                          </figure>
+                        </div>
+                        <div className="column">
+                          <h1 className="title">Matter Product Studio 🇺🇸</h1>
+                          <h3 className="subtitle">Web Engineer</h3>
+                        </div>
+                      </div>
+                    </ProjectTile>
+
+                    <ProjectTile renderAs="a" kind="child" notification color="#B76CFD" href="https://nomadlist.com/@lenilsonjr" target="_blank">
+                      <div className="columns is-vcentered">
+                        <div className="column is-narrow">
+                          <figure className="image is-96x96">
+                            <img src={mapMarker} />
+                          </figure>
+                        </div>
+                        <div className="column">
+                          { currentLocation ? <h1 className="title">Currently in {currentLocation}</h1> : <h1 className="title">Whereabouts unknown 🌎</h1>}
+                          { nextLocation && <h3 className="subtitle">Leaving for {nextLocation} next</h3> }
+                        </div>
+                      </div>
+                    </ProjectTile>
+
                   </Tile>
-                </Tile>
-                <Tile kind="parent">
-                  <LocationTile renderAs="article" kind="child" notification color="link" backgroundImage={locationBackground}>
-                    <Heading>📌 Currently in {currentLocation}</Heading>
-                    <Heading subtitle>🛫 {nextLocation}</Heading>
-                  </LocationTile>
                 </Tile>
                 <Tile kind="parent">
                   <Tile renderAs="article" kind="child" align="center">
@@ -215,7 +212,7 @@ export default ({isHome}) =>  {
                     <Content>
                       <Heading size={3}>Hello, I'm Lenilson 👋</Heading>
                       <Heading subtitle size={6}>
-                        I'm a freeelancer developer and maker currently in {currentLocation}. I live out of a backpack and usually travel around the world to find nice food and fast WiFi. You can get to know more about me <a href="/">here</a>. 🚀
+                        I'm a freeelancer developer and maker currently in {currentLocation}. I live out of a suitcase and travel around the world to find nice food and fast WiFi. You can get to know more about me <a href="/">here</a>. 🚀
                       </Heading>
                     </Content>
                   </Media.Item>
