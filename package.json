@@ -51,7 +51,7 @@
     "gatsby-source-ghost": "3.4.4",
     "gatsby-transformer-sharp": "2.2.4",
     "lodash": "4.17.15",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "polished": "^3.4.2",
     "prop-types": "^15.7.2",
     "react": "16.8.6",
